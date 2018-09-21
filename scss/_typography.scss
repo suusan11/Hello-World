@@ -1,0 +1,36 @@
+// _typography.scss defined everything about font-family
+
+
+// font-family
+@import url('https://fonts.googleapis.com/css?family=Montserrahttps://fonts.googleapis.com/css?family=Crimson+Text|Open+Sans|Vollkorn');
+
+$sans-header: 'Open Sans', sans-serif;
+$serif-h1: 'Vollkorn', serif;
+$serif-p: 'Crimson Text', serif;
+
+
+// font-color
+$font-color: #68303F;
+$font-color-h1: #CF491C;
+
+// font-size:
+$font-base-size: 16px;
+$font-size-h1: 3.125rem;
+$font-size-p: 1.5rem;
+$font-size-li: 1.25rem;
+$font-size-h1-sp: 2rem;
+
+
+//font-weight
+$font-weight-bold: bold;
+
+
+html {
+  font-family: $serif-p;
+  font-size: $font-base-size;
+  line-height: 1.2;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-variant-ligatures: common-ligatures;
+  color: $font-color;
+}
