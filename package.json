@@ -1,0 +1,27 @@
+{
+  "name": "kulkuri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suusan11/kulkuri.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suusan11/kulkuri/issues"
+  },
+  "homepage": "https://github.com/suusan11/kulkuri#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "sass": "^1.14.0"
+  }
+}
