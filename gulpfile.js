@@ -5,8 +5,8 @@ const plumber = require("gulp-plumber");
 
 
 gulp.task('default', ['browserSyncTask'], function () {
-    gulp.watch('scss/**/*.scss',['scss']);
-    gulp.watch('**/*.html', ['html'], ['bs-reload']);
+    gulp.watch('./scss/**/*.scss',['scss']);
+    gulp.watch('**/*.html', ['html']);
 });
 
 gulp.task('scss', function() {
@@ -16,7 +16,7 @@ gulp.task('scss', function() {
             outputStyle: 'expanded'
         })
             .on('error', sass.logError))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest("./"))
         .pipe(browserSync.reload({ stream:true }))
 });
 
