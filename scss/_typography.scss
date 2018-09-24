@@ -1,3 +1,4 @@
+@import "_variable.scss";
 // _typography.scss defined everything about font-family
 
 
@@ -32,3 +33,4 @@ html {
   -webkit-font-smoothing: subpixel-antialiased;
   font-variant-ligatures: common-ligatures;
   color: $black;
+}
