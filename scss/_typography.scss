@@ -4,9 +4,9 @@
 // font-family
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mukta|Signika+Negative');
 
-$font-empha: 'Amatic SC', cursive;
+$font-photo-name: 'Amatic SC', cursive;
 $font-base: 'Mukta', sans-serif;
-$font-h1: 'Signika Negative', sans-serif;
+$font-heading: 'Signika Negative', sans-serif;
 
 
 // font-size:
@@ -32,4 +32,3 @@ html {
   -webkit-font-smoothing: subpixel-antialiased;
   font-variant-ligatures: common-ligatures;
   color: $black;
-}
