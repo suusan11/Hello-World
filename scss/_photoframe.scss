@@ -1,0 +1,44 @@
+@import "variable", "typography";
+
+.frame {
+
+  &__photobox {
+    position: relative;
+    width: 213px;
+    height: 231px;
+    border: 1px solid $black;
+
+    img {
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 188px;
+      height: 143px;
+    }
+
+    h3 {
+      position: absolute;
+      top: 180px;
+      left: 50px;
+      font-size: $font-size-h3;
+      font-family: $font-photo-name;
+    }
+
+    &__circle {
+      width: 77px;
+      height: 77px;
+      border: 1px solid $black;
+      border-radius: 50%;
+
+      img {
+        width: 70px;
+        height: auto;
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+      }
+    }
+  }
+
+
+}

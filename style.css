@@ -4,6 +4,8 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Mukta|Signika+Negative");
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Mukta|Signika+Negative");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Mukta|Signika+Negative");
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Mukta|Signika+Negative");
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -149,4 +151,100 @@ html {
   left: 45%;
   font-size: 2.812rem;
   color: #ffffff;
+}
+
+html {
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-variant-ligatures: common-ligatures;
+  color: #333333;
+}
+
+.frame__photobox {
+  position: relative;
+  width: 213px;
+  height: 231px;
+  border: 1px solid #333333;
+}
+
+.frame__photobox img {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 188px;
+  height: 143px;
+}
+
+.frame__photobox h3 {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  font-size: 2.187rem;
+  font-family: "Amatic SC", cursive;
+}
+
+.frame__photobox__circle {
+  width: 77px;
+  height: 77px;
+  border: 1px solid #333333;
+  border-radius: 50%;
+}
+
+.frame__photobox__circle img {
+  width: 70px;
+  height: auto;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+html {
+  font-family: "Mukta", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-variant-ligatures: common-ligatures;
+  color: #333333;
+}
+
+.frame__photobox {
+  position: relative;
+  width: 213px;
+  height: 231px;
+  border: 1px solid #333333;
+}
+
+.frame__photobox img {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 188px;
+  height: 143px;
+}
+
+.frame__photobox h3 {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  font-size: 2.187rem;
+  font-family: "Amatic SC", cursive;
+}
+
+.frame__photobox__circle {
+  width: 77px;
+  height: 77px;
+  border: 1px solid #333333;
+  border-radius: 50%;
+}
+
+.frame__photobox__circle img {
+  width: 70px;
+  height: auto;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
