@@ -178,10 +178,12 @@ html {
   height: 143px;
 }
 
-.frame__photobox h3 {
+.frame__photobox--name {
   position: absolute;
   top: 180px;
-  left: 50px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
   font-size: 2.187rem;
   font-family: "Amatic SC", cursive;
 }
@@ -226,10 +228,12 @@ html {
   height: 143px;
 }
 
-.frame__photobox h3 {
+.frame__photobox--name {
   position: absolute;
   top: 180px;
-  left: 50px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
   font-size: 2.187rem;
   font-family: "Amatic SC", cursive;
 }
