@@ -224,7 +224,7 @@ html {
 
 .about__flex {
   width: 100%;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -232,6 +232,7 @@ html {
 
 .about__flex--left {
   display: inline-block;
+  width: 45%;
 }
 
 .about__flex--left img {
@@ -244,6 +245,7 @@ html {
 .about__flex--right {
   display: inline-block;
   text-align: right;
+  width: 45%;
 }
 
 .about__flex--right p {

@@ -17,13 +17,14 @@
 
   &__flex {
     width: 100%;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
     &--left {
       display: inline-block;
+      width: 45%;
 
       img {
         width: 250px;
@@ -36,6 +37,7 @@
     &--right {
       display: inline-block;
       text-align: right;
+      width: 45%;
 
       p {
         font-size: $font-size-p;
