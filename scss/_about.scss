@@ -1,0 +1,47 @@
+@import "variable", "typography";
+
+.about {
+  width: 100%;
+  height: auto;
+  padding-bottom: 20px;
+  background-color: $primary-blue;
+
+  h2 {
+    display: inline-block;
+    font-size: $font-size-h2;
+    font-family: $font-heading;
+    font-weight: $font-weight-light;
+    color: $black;
+    padding: 3% 0;
+  }
+
+  &__flex {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &--left {
+      display: inline-block;
+
+      img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+
+    &--right {
+      display: inline-block;
+      text-align: right;
+
+      p {
+        font-size: $font-size-p;
+        line-height: 40px;
+      }
+    }
+
+  }
+}
