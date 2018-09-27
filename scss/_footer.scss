@@ -13,11 +13,15 @@ footer {
     text-align: center;
 
     p {
-      font-family: "Amatic SC", cursive;
-      font-size: $font-size-p;
-      font-weight: $font-weight-bold;
+      font-family: $font-heading;
+      //font-size: $font-size-p;
+      //font-weight: $font-weight-bold;
       color: $white;
       padding-bottom: 10px;
+
+      span {
+        font-size: $font-size-p;
+      }
 
       &:nth-child(2) {
         text-align: right;

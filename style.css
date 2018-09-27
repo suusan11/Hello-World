@@ -322,11 +322,13 @@ footer {
 }
 
 .footer__inner p {
-  font-family: "Amatic SC", cursive;
-  font-size: 1.25rem;
-  font-weight: bold;
+  font-family: "Signika Negative", sans-serif;
   color: #ffffff;
   padding-bottom: 10px;
+}
+
+.footer__inner p span {
+  font-size: 1.25rem;
 }
 
 .footer__inner p:nth-child(2) {
