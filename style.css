@@ -120,14 +120,10 @@ html {
 
 .header__nav--links li {
   width: 10%;
-}
-
-.header__nav--links li a {
   position: relative;
-  color: #333333;
 }
 
-.header__nav--links li a::after {
+.header__nav--links li::after {
   position: absolute;
   display: block;
   content: "";
@@ -138,8 +134,12 @@ html {
   transition: .5s ease-out;
 }
 
-.header__nav--links li a:hover::after {
-  width: 100%;
+.header__nav--links li:hover::after {
+  width: 50%;
+}
+
+.header__nav--links li a {
+  color: #333333;
 }
 
 html {
