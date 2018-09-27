@@ -186,6 +186,14 @@ html {
   padding: 10% 0;
 }
 
+.countries h2 span {
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
 .countries img.airplane {
   width: 40px;
   height: auto;
@@ -244,6 +252,7 @@ html {
   height: auto;
   padding-bottom: 20px;
   background-color: #4799B7;
+  text-align: center;
 }
 
 .about h2 {
@@ -252,7 +261,8 @@ html {
   font-family: "Signika Negative", sans-serif;
   font-weight: lighter;
   color: #333333;
-  padding: 3% 0;
+  letter-spacing: 5px;
+  padding: 5% 0;
 }
 
 .about__flex {
@@ -261,6 +271,7 @@ html {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  padding-bottom: 5%;
 }
 
 .about__flex--left {

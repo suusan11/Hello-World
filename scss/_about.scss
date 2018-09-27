@@ -5,6 +5,7 @@
   height: auto;
   padding-bottom: 20px;
   background-color: $primary-blue;
+  text-align: center;
 
   h2 {
     display: inline-block;
@@ -12,7 +13,8 @@
     font-family: $font-heading;
     font-weight: $font-weight-light;
     color: $black;
-    padding: 3% 0;
+    letter-spacing: 5px;
+    padding: 5% 0;
   }
 
   &__flex {
@@ -21,6 +23,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 5%;
 
     &--left {
       display: inline-block;
