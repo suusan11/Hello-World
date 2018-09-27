@@ -11,6 +11,10 @@
     font-weight: $font-weight-light;
     color: $black;
     padding: 10% 0;
+
+    span {
+      @include rotate(5deg);
+    }
   }
 
   img.airplane {
