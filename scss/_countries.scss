@@ -1,4 +1,4 @@
-@import "typography", "variable";
+@import "typography", "variable", "mixin";
 
 .countries {
   width: 100%;
@@ -28,7 +28,7 @@
   align-items: center;
   flex-wrap: wrap;
 
-  .frame {
+  a {
     margin: 0 5% 7% 5%;
 
     &:nth-child(1),

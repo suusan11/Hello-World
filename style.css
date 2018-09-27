@@ -201,11 +201,11 @@ html {
   flex-wrap: wrap;
 }
 
-.countries__flex .frame {
+.countries__flex a {
   margin: 0 5% 7% 5%;
 }
 
-.countries__flex .frame:nth-child(1), .countries__flex .frame:nth-child(5), .countries__flex .frame:nth-child(7) {
+.countries__flex a:nth-child(1), .countries__flex a:nth-child(5), .countries__flex a:nth-child(7) {
   -webkit-transform: rotate(-7deg);
   -moz-transform: rotate(-7deg);
   -ms-transform: rotate(-7deg);
@@ -213,7 +213,7 @@ html {
   transform: rotate(-7deg);
 }
 
-.countries__flex .frame:nth-child(2), .countries__flex .frame:nth-child(4) {
+.countries__flex a:nth-child(2), .countries__flex a:nth-child(4) {
   -webkit-transform: rotate(5deg);
   -moz-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
@@ -221,7 +221,7 @@ html {
   transform: rotate(5deg);
 }
 
-.countries__flex .frame:nth-child(3), .countries__flex .frame:nth-child(6), .countries__flex .frame:nth-child(8) {
+.countries__flex a:nth-child(3), .countries__flex a:nth-child(6), .countries__flex a:nth-child(8) {
   -webkit-transform: rotate(10deg);
   -moz-transform: rotate(10deg);
   -ms-transform: rotate(10deg);
@@ -362,4 +362,5 @@ html {
   text-align: center;
   font-size: 2.187rem;
   font-family: "Amatic SC", cursive;
+  color: #333333;
 }
