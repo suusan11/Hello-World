@@ -123,14 +123,23 @@ html {
 }
 
 .header__nav--links li a {
+  position: relative;
   color: #333333;
 }
 
 .header__nav--links li a::after {
+  position: absolute;
   display: block;
   content: "";
-  bottom: 10px;
-  border-bottom: 1px solid #333333;
+  width: 0;
+  height: 1px;
+  bottom: -5px;
+  background-color: #333333;
+  transition: .5s ease-out;
+}
+
+.header__nav--links li a:hover::after {
+  width: 100%;
 }
 
 html {
