@@ -218,7 +218,11 @@ html {
   font-weight: lighter;
   color: #333333;
   letter-spacing: 5px;
-  padding: 10% 0;
+  padding: 7% 0;
+}
+
+.countries h2 span {
+  transform: rotateX(45deg);
 }
 
 .countries img.airplane {
@@ -286,6 +290,7 @@ html {
 .about {
   width: 100%;
   height: auto;
+  margin-top: 7%;
   padding-bottom: 20px;
   background-color: #4799B7;
   text-align: center;

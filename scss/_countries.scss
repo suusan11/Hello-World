@@ -11,11 +11,11 @@
     font-weight: $font-weight-light;
     color: $black;
     letter-spacing: 5px;
-    padding: 10% 0;
+    padding: 7% 0;
 
-    //span {
-    //  @include rotate(5deg);
-    //}
+    span {
+      transform: rotateX(45deg);
+    }
   }
 
   img.airplane {
