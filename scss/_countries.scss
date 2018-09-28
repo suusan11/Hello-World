@@ -13,9 +13,9 @@
     letter-spacing: 5px;
     padding: 10% 0;
 
-    span {
-      @include rotate(5deg);
-    }
+    //span {
+    //  @include rotate(5deg);
+    //}
   }
 
   img.airplane {
@@ -39,16 +39,25 @@
     &:nth-child(1),
     &:nth-child(5),
     &:nth-child(7){
-      @include rotate(-7deg);
+      @include transform(-7deg);
     }
     &:nth-child(2),
     &:nth-child(4) {
-      @include rotate(5deg);
+      @include transform(5deg);
     }
     &:nth-child(3),
     &:nth-child(6),
     &:nth-child(8) {
-      @include rotate(10deg);
+      @include transform(10deg);
     }
+
+    &.fadein {
+      opacity : 0;
+      transition : all 1s ease-in;
+    }
+    &.fadein.scrollin {
+      opacity : 1;
+    }
+
   }
 }

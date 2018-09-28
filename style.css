@@ -161,6 +161,31 @@ html {
   width: 100%;
   height: 700px;
   object-fit: cover;
+  animation: opacity 1s ease-in;
+}
+
+@-webkit-keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .hero h1 {
@@ -196,14 +221,6 @@ html {
   padding: 10% 0;
 }
 
-.countries h2 span {
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-  transform: rotate(5deg);
-}
-
 .countries img.airplane {
   width: 40px;
   height: auto;
@@ -224,27 +241,36 @@ html {
 }
 
 .countries__flex a:nth-child(1), .countries__flex a:nth-child(5), .countries__flex a:nth-child(7) {
-  -webkit-transform: rotate(-7deg);
-  -moz-transform: rotate(-7deg);
-  -ms-transform: rotate(-7deg);
-  -o-transform: rotate(-7deg);
-  transform: rotate(-7deg);
+  -webkit-transform: rotate(-7deg) translate(0, 50px);
+  -moz-transform: rotate(-7deg) translate(0, 50px);
+  -ms-transform: rotate(-7deg) translate(0, 50px);
+  -o-transform: rotate(-7deg) translate(0, 50px);
+  transform: rotate(-7deg) translate(0, 50px);
 }
 
 .countries__flex a:nth-child(2), .countries__flex a:nth-child(4) {
-  -webkit-transform: rotate(5deg);
-  -moz-transform: rotate(5deg);
-  -ms-transform: rotate(5deg);
-  -o-transform: rotate(5deg);
-  transform: rotate(5deg);
+  -webkit-transform: rotate(5deg) translate(0, 50px);
+  -moz-transform: rotate(5deg) translate(0, 50px);
+  -ms-transform: rotate(5deg) translate(0, 50px);
+  -o-transform: rotate(5deg) translate(0, 50px);
+  transform: rotate(5deg) translate(0, 50px);
 }
 
 .countries__flex a:nth-child(3), .countries__flex a:nth-child(6), .countries__flex a:nth-child(8) {
-  -webkit-transform: rotate(10deg);
-  -moz-transform: rotate(10deg);
-  -ms-transform: rotate(10deg);
-  -o-transform: rotate(10deg);
-  transform: rotate(10deg);
+  -webkit-transform: rotate(10deg) translate(0, 50px);
+  -moz-transform: rotate(10deg) translate(0, 50px);
+  -ms-transform: rotate(10deg) translate(0, 50px);
+  -o-transform: rotate(10deg) translate(0, 50px);
+  transform: rotate(10deg) translate(0, 50px);
+}
+
+.countries__flex a.fadein {
+  opacity: 0;
+  transition: all 1s ease-in;
+}
+
+.countries__flex a.fadein.scrollin {
+  opacity: 1;
 }
 
 html {

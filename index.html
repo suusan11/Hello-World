@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <title>kulkuri</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
     <section class="countries">
         <h2><span>\</span>&ensp;Hello World&ensp;/</h2>
         <div class="countries__flex">
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/australia/australia.jpeg" alt="top-australia">
@@ -38,7 +39,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/german/german.jpeg" alt="top-german">
@@ -48,7 +49,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/taiwan/taiwan.jpeg" alt="top-taiwan">
@@ -58,7 +59,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/canada/canada.jpeg" alt="top-canada">
@@ -68,7 +69,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/malaysia/malaysia.jpeg" alt="top-malaysia">
@@ -78,7 +79,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/finland/finland.jpeg" alt="top-finland">
@@ -88,7 +89,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/thailand/thailand.jpeg" alt="top-thailand">
@@ -98,7 +99,7 @@
                     </div>
                 </div>
             </a>
-            <a href="">
+            <a href="" class="fadein">
                 <div class="frame">
                     <div class="frame__photobox">
                         <img src="images/usa/usa.jpeg" alt="top-usa">
@@ -140,5 +141,20 @@
         </div>
         <p>&copy; 2018 kulkuri</p>
     </footer>
+
+    <script type="text/javascript">
+        $(function(){
+            $(window).scroll(function (){
+                $('.fadein').each(function(){
+                    var elemPos = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > elemPos - windowHeight + 200){
+                        $(this).addClass('scrollin');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 </html>
