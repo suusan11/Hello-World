@@ -1,7 +1,7 @@
-@mixin rotate ($value) {
-  -webkit-transform: rotate($value);
-  -moz-transform: rotate($value);
-  -ms-transform: rotate($value);
-  -o-transform: rotate($value);
-  transform: rotate($value);
+@mixin transform ($value) {
+  -webkit-transform: rotate($value) translate(0, 50px);
+  -moz-transform: rotate($value) translate(0, 50px);
+  -ms-transform: rotate($value) translate(0, 50px);
+  -o-transform: rotate($value) translate(0, 50px);
+  transform: rotate($value) translate(0, 50px);
 }
