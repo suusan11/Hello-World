@@ -39,25 +39,39 @@
     &:nth-child(1),
     &:nth-child(5),
     &:nth-child(7){
-      @include transform(-7deg);
+      @include transformBefore(-7deg);
     }
     &:nth-child(2),
     &:nth-child(4) {
-      @include transform(5deg);
+      @include transformBefore(5deg);
     }
     &:nth-child(3),
     &:nth-child(6),
     &:nth-child(8) {
-      @include transform(10deg);
+      @include transformBefore(10deg);
     }
 
     &.fadein {
-      opacity : 0;
+      opacity: 0;
       transition : all 1s ease-in;
     }
     &.fadein.scrollin {
-      opacity : 1;
-    }
+      opacity: 1;
 
+      &:nth-child(1),
+      &:nth-child(5),
+      &:nth-child(7){
+        @include transformAfter(-7deg);
+      }
+      &:nth-child(2),
+      &:nth-child(4) {
+        @include transformAfter(5deg);
+      }
+      &:nth-child(3),
+      &:nth-child(6),
+      &:nth-child(8) {
+        @include transformAfter(10deg);
+      }
+    }
   }
 }
