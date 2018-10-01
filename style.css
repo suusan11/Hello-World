@@ -451,3 +451,18 @@ html {
   font-family: "Amatic SC", cursive;
   color: #333333;
 }
+
+.hover--shade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: 240px;
+  height: 231px;
+  background-color: #6DB3BF;
+  -webkit-transform: rotate(7deg);
+  -moz-transform: rotate(7deg);
+  -ms-transform: rotate(7deg);
+  -o-transform: rotate(7deg);
+  transform: rotate(7deg);
+}
