@@ -58,11 +58,6 @@
 
           &:hover {
             @include transformHover(0deg);
-
-            //.hover__bg--blue {
-            //  opacity: 0.9;
-            //  z-index: 10;
-            //}
           }
         }
       }
