@@ -17,12 +17,6 @@
       transform: rotateX(45deg);
     }
   }
-
-  img.airplane {
-    width: 40px;
-    height: auto;
-    margin-left: 10px;
-  }
 }
 
 .countries__flex {
@@ -33,7 +27,7 @@
   align-items: center;
   flex-wrap: wrap;
 
-  a {
+  .frame {
     margin: 0 5% 7% 5%;
 
     &:nth-child(1),
@@ -64,6 +58,7 @@
       &:nth-child(7){
         @include transformAfter(-7deg);
       }
+
       &:nth-child(2),
       &:nth-child(4) {
         @include transformAfter(5deg);
@@ -72,6 +67,10 @@
       &:nth-child(6),
       &:nth-child(8) {
         @include transformAfter(10deg);
+      }
+
+      &:hover {
+        @include transformHover(0deg);
       }
     }
   }
