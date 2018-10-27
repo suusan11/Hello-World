@@ -13,10 +13,10 @@
   p {
     padding: 105px 0;
     font-size: $font-size-p;
+    color: $white;
   }
 }
 
 .frame a:hover .hover__bg--blue{
   opacity: 0.9;
-  z-index: 10;
 }
