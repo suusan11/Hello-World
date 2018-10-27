@@ -538,9 +538,15 @@ html {
   height: 231px;
   background-color: #6DB3BF;
   opacity: 0;
+  cursor: pointer;
 }
 
 .hover__bg--blue p {
   padding: 105px 0;
   font-size: 1.25rem;
+}
+
+.frame__photobox a:hover .hover__bg--blue {
+  opacity: 0.9;
+  z-index: 10;
 }

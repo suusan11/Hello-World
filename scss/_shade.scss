@@ -1,11 +1,21 @@
-@import "variable", "mixin";
-.hover--shade {
+@import "variable", "typography";
+.hover__bg--blue {
   position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
+  top: -1px;  //to fit for border
+  left: -1px;
   width: 240px;
   height: 231px;
   background-color: #6DB3BF;
-  @include transformHover(7deg);
+  opacity: 0;
+  cursor: pointer;
+
+  p {
+    padding: 105px 0;
+    font-size: $font-size-p;
+  }
+}
+
+.frame__photobox a:hover .hover__bg--blue{
+  opacity: 0.9;
+  z-index: 10;
 }
