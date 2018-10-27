@@ -8,6 +8,7 @@
   background-color: #6DB3BF;
   opacity: 0;
   cursor: pointer;
+  transition: opacity 1s ease-in-out;
 
   p {
     padding: 105px 0;
