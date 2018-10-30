@@ -1,0 +1,41 @@
+.home__flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  &--left {
+    width: 40%;
+
+    img {
+      width: 485px;
+      height: 535px;
+      object-fit: cover;
+    }
+  }
+
+  &--right {
+    width: 60%;
+    padding: 8%;
+    text-align: left;
+
+    &-contents {
+      margin-top: 5%;
+
+      h2 {
+        display: inline-block;
+        width: 20%;
+        margin-right: 5%;
+
+      }
+
+      p {
+        display: inline-block;
+      }
+
+      ul {
+        display: inline-block;
+      }
+    }
+  }
+}

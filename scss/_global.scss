@@ -1,4 +1,4 @@
-@import "_variable.scss";
+@import "variable", "typography";
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-
+  font-size: $font-size-h2;
 }
 
 h3 {
@@ -45,4 +45,8 @@ a {
   &:hover {
     text-decoration: none;
   }
+}
+
+p {
+  font-size: $font-size-p;
 }
