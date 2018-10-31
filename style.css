@@ -794,3 +794,25 @@ html {
 .footer--taiwan {
   background-color: #B77388;
 }
+
+.img__shadow--thailand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(254, 204, 53, 0.5);
+  z-index: 2;
+}
+
+.color--thailand h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #FECC35;
+  margin-top: 10%;
+}
+
+.footer--thailand {
+  background-color: #FECC35;
+}
