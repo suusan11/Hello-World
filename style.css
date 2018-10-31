@@ -595,11 +595,12 @@ html {
 }
 
 .home__flex--left {
-  width: 50%;
+  position: relative;
+  width: 485px;
+  height: 535px;
 }
 
 .home__flex--left img {
-  position: relative;
   width: 485px;
   height: 535px;
   object-fit: cover;
@@ -612,8 +613,9 @@ html {
 }
 
 .home__flex--right {
-  width: 50%;
+  width: 40%;
   padding: 5%;
+  margin-left: 5%;
   text-align: left;
 }
 
@@ -624,7 +626,7 @@ html {
 .home__flex--right-contents h2 {
   display: inline-block;
   width: 20%;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .home__flex--right-contents p {
