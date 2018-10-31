@@ -82,3 +82,19 @@
 .footer--malaysia {
   background-color: $malaysia;
 }
+
+
+//Taiwan
+.img__shadow--taiwan {
+  @include imgShadow($taiwan-opacity);
+}
+
+.color--taiwan {
+  h2::after {
+    @include guideLine($taiwan);
+  }
+}
+
+.footer--taiwan {
+  background-color: $taiwan;
+}

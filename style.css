@@ -772,3 +772,25 @@ html {
 .footer--malaysia {
   background-color: #938BFF;
 }
+
+.img__shadow--taiwan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(183, 115, 136, 0.5);
+  z-index: 2;
+}
+
+.color--taiwan h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #B77388;
+  margin-top: 10%;
+}
+
+.footer--taiwan {
+  background-color: #B77388;
+}
