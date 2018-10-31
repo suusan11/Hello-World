@@ -728,3 +728,25 @@ html {
 .footer--finland {
   background-color: #3B91A6;
 }
+
+.img__shadow--german {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(229, 153, 72, 0.5);
+  z-index: 2;
+}
+
+.color--german h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #E59948;
+  margin-top: 10%;
+}
+
+.footer--german {
+  background-color: #E59948;
+}

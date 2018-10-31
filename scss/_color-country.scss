@@ -50,3 +50,19 @@
 .footer--finland {
   background-color: $finland;
 }
+
+
+//German
+.img__shadow--german {
+  @include imgShadow($german-opacity);
+}
+
+.color--german {
+  h2::after {
+    @include guideLine($german);
+  }
+}
+
+.footer--german {
+  background-color: $german;
+}
