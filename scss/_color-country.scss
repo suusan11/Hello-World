@@ -18,3 +18,18 @@
 .footer--australia {
   background-color: $australia;
 }
+
+//Canada
+.img__shadow--canada {
+  @include imgShadow($canada-opacity);
+}
+
+.color--canada {
+  h2::after {
+    @include guideLine($canada);
+  }
+}
+
+.footer--canada {
+  background-color: $canada;
+}

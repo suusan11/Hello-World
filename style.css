@@ -684,3 +684,25 @@ html {
 .footer--australia {
   background-color: #46509F;
 }
+
+.img__shadow--canada {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(176, 39, 44, 0.5);
+  z-index: 2;
+}
+
+.color--canada h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #B0272C;
+  margin-top: 10%;
+}
+
+.footer--canada {
+  background-color: #B0272C;
+}
