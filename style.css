@@ -640,6 +640,7 @@ html {
 
 .home__flex--right-contents ul li {
   font-size: 1.25rem;
+  padding: 5% 0;
 }
 
 .country__footer {
