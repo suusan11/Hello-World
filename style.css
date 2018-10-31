@@ -560,7 +560,7 @@ html {
   left: -1px;
   width: 240px;
   height: 231px;
-  background-color: #6DB3BF;
+  background-color: #FFFE6F;
   opacity: 0;
   cursor: pointer;
   transition: opacity 1s ease-in-out;
@@ -569,7 +569,7 @@ html {
 .hover__bg--blue p {
   padding: 105px 0;
   font-size: 1.25rem;
-  color: #ffffff;
+  color: #333333;
 }
 
 .frame a:hover .hover__bg--blue {
