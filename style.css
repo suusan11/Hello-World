@@ -639,3 +639,11 @@ html {
   line-height: 100px;
   font-weight: 200;
 }
+
+.home__flex--right h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #46509F;
+  margin-top: 10%;
+}

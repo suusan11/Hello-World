@@ -1,0 +1,8 @@
+@import "variable", "mixin";
+
+//Australia
+.home__flex--right {
+  h2::after {
+    @include guideLine($australia);
+  }
+}

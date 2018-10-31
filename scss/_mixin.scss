@@ -21,3 +21,11 @@
   -o-transform: rotate($value);
   transform: rotate($value);
 }
+
+@mixin guideLine ($color) {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid $color;
+  margin-top: 10%;
+}
