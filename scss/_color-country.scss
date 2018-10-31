@@ -19,6 +19,7 @@
   background-color: $australia;
 }
 
+
 //Canada
 .img__shadow--canada {
   @include imgShadow($canada-opacity);
@@ -32,4 +33,20 @@
 
 .footer--canada {
   background-color: $canada;
+}
+
+
+//Finland
+.img__shadow--finland {
+  @include imgShadow($finland-opacity);
+}
+
+.color--finland {
+  h2::after {
+    @include guideLine($finland);
+  }
+}
+
+.footer--finland {
+  background-color: $finland;
 }

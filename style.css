@@ -706,3 +706,25 @@ html {
 .footer--canada {
   background-color: #B0272C;
 }
+
+.img__shadow--finland {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(59, 145, 166, 0.5);
+  z-index: 2;
+}
+
+.color--finland h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #3B91A6;
+  margin-top: 10%;
+}
+
+.footer--finland {
+  background-color: #3B91A6;
+}
