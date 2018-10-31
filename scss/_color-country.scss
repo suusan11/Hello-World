@@ -114,3 +114,19 @@
 .footer--thailand {
   background-color: $thailand;
 }
+
+
+//USA
+.img__shadow--usa {
+  @include imgShadow($usa-opacity);
+}
+
+.color--usa {
+  h2::after {
+    @include guideLine($usa);
+  }
+}
+
+.footer--usa {
+  background-color: $usa;
+}

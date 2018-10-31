@@ -816,3 +816,25 @@ html {
 .footer--thailand {
   background-color: #FECC35;
 }
+
+.img__shadow--usa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(159, 169, 162, 0.5);
+  z-index: 2;
+}
+
+.color--usa h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #9FA9A2;
+  margin-top: 10%;
+}
+
+.footer--usa {
+  background-color: #9FA9A2;
+}
