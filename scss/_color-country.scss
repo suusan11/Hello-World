@@ -66,3 +66,19 @@
 .footer--german {
   background-color: $german;
 }
+
+
+//Malaysia
+.img__shadow--malaysia {
+  @include imgShadow($malaysia-opacity);
+}
+
+.color--malaysia {
+  h2::after {
+    @include guideLine($malaysia);
+  }
+}
+
+.footer--malaysia {
+  background-color: $malaysia;
+}

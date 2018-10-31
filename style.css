@@ -750,3 +750,25 @@ html {
 .footer--german {
   background-color: #E59948;
 }
+
+.img__shadow--malaysia {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 485px;
+  height: 535px;
+  background-color: rgba(147, 139, 255, 0.5);
+  z-index: 2;
+}
+
+.color--malaysia h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  border-bottom: 2px solid #938BFF;
+  margin-top: 10%;
+}
+
+.footer--malaysia {
+  background-color: #938BFF;
+}
