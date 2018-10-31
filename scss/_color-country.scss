@@ -1,8 +1,20 @@
-@import "variable", "mixin";
+@import "variable", "mixin", "typography";
 
 //Australia
-.home__flex--right {
+//.home__img--australia::before {
+//  @include imgShade("Australia", $australia-opacity);
+//}
+
+.img__shadow--australia {
+  @include imgShadow($australia-opacity);
+}
+
+.color--australia {
   h2::after {
     @include guideLine($australia);
   }
+}
+
+.footer--australia {
+  background-color: $australia;
 }

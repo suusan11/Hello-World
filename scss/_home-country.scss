@@ -11,9 +11,16 @@
     width: 50%;
 
     img {
+      position: relative;
       width: 485px;
       height: 535px;
       object-fit: cover;
+    }
+
+    h1 {
+      font-family: $font-heading;
+      color: $white;
+      line-height: 535px;
     }
   }
 
