@@ -51,3 +51,19 @@
   border-bottom: 2px solid $color;
   margin-top: 10%;
 }
+
+@mixin guideLineTop ($color) {
+  content: "";
+  display: block;
+  width: 67px;
+  border-top: 1px solid $color;
+  margin-bottom: 10%;
+}
+
+@mixin guideLineBottom ($color) {
+  content: '';
+  display: block;
+  width: 67px;
+  border-bottom: 1px solid $color;
+  margin-top: 10%;
+}
