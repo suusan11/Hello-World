@@ -839,3 +839,7 @@ html {
 .footer--usa {
   background-color: #9FA9A2;
 }
+
+.gallery {
+  margin: 5% 10%;
+}
