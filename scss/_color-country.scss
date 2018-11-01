@@ -19,6 +19,15 @@
   background-color: $australia;
 }
 
+.gallery--australia h2 {
+  &::before {
+    @include guideLineTop($australia);
+  }
+  &::after {
+    @include guideLineBottom($australia);
+  }
+}
+
 
 //Canada
 .img__shadow--canada {

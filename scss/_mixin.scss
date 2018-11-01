@@ -55,15 +55,19 @@
 @mixin guideLineTop ($color) {
   content: "";
   display: block;
+  position: absolute;
+  top: -40px;
+  left: -30px;
   width: 67px;
-  border-top: 1px solid $color;
-  margin-bottom: 10%;
+  border-top: 2px solid $color;
 }
 
 @mixin guideLineBottom ($color) {
   content: '';
   display: block;
+  position: absolute;
+  bottom: -40px;
+  right: -30px;
   width: 67px;
-  border-bottom: 1px solid $color;
-  margin-top: 10%;
+  border-bottom: 2px solid $color;
 }
