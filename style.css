@@ -146,10 +146,14 @@ html {
 
 .header__nav--links li {
   padding-right: 5%;
-  position: relative;
 }
 
-.header__nav--links li::after {
+.header__nav--links li a {
+  position: relative;
+  color: #333333;
+}
+
+.header__nav--links li a::after {
   position: absolute;
   display: block;
   content: "";
@@ -160,12 +164,8 @@ html {
   transition: .5s ease-out;
 }
 
-.header__nav--links li:hover::after {
-  width: 50%;
-}
-
-.header__nav--links li a {
-  color: #333333;
+.header__nav--links li a:hover::after {
+  width: 100%;
 }
 
 html {
