@@ -72,6 +72,15 @@
   border-bottom: 2px solid $color;
 }
 
+//index.html countries section
+@mixin gridBg($color) {
+  width: 80%;
+  height: 350px;
+  background-color: $color;
+  z-index: -5;
+}
+
+//responsive
 @mixin pcSize {
   @media (min-width: (1000px)) {
     @content;

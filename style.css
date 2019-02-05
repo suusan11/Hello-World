@@ -250,7 +250,7 @@ html {
   transform: rotateX(45deg);
 }
 
-.countries__flex {
+.countries__grid {
   width: 100%;
   margin: 0 auto;
   display: flex;
@@ -259,12 +259,12 @@ html {
   flex-wrap: wrap;
 }
 
-.countries__flex .frame {
+.countries__grid .frame {
   margin: 0 5% 7% 5%;
   /* ----- scroll effect ----- */
 }
 
-.countries__flex .frame:nth-child(1), .countries__flex .frame:nth-child(5), .countries__flex .frame:nth-child(7) {
+.countries__grid .frame:nth-child(1), .countries__grid .frame:nth-child(5), .countries__grid .frame:nth-child(7) {
   -webkit-transform: rotate(-7deg) translate(0, 50px);
   -moz-transform: rotate(-7deg) translate(0, 50px);
   -ms-transform: rotate(-7deg) translate(0, 50px);
@@ -272,7 +272,7 @@ html {
   transform: rotate(-7deg) translate(0, 50px);
 }
 
-.countries__flex .frame:nth-child(2), .countries__flex .frame:nth-child(4) {
+.countries__grid .frame:nth-child(2), .countries__grid .frame:nth-child(4) {
   -webkit-transform: rotate(5deg) translate(0, 50px);
   -moz-transform: rotate(5deg) translate(0, 50px);
   -ms-transform: rotate(5deg) translate(0, 50px);
@@ -280,7 +280,7 @@ html {
   transform: rotate(5deg) translate(0, 50px);
 }
 
-.countries__flex .frame:nth-child(3), .countries__flex .frame:nth-child(6), .countries__flex .frame:nth-child(8) {
+.countries__grid .frame:nth-child(3), .countries__grid .frame:nth-child(6), .countries__grid .frame:nth-child(8) {
   -webkit-transform: rotate(10deg) translate(0, 50px);
   -moz-transform: rotate(10deg) translate(0, 50px);
   -ms-transform: rotate(10deg) translate(0, 50px);
@@ -288,16 +288,16 @@ html {
   transform: rotate(10deg) translate(0, 50px);
 }
 
-.countries__flex .frame.fadein {
+.countries__grid .frame.fadein {
   opacity: 0;
   transition: all 1s ease-in-out;
 }
 
-.countries__flex .frame.fadein.scrollin {
+.countries__grid .frame.fadein.scrollin {
   opacity: 1;
 }
 
-.countries__flex .frame.fadein.scrollin:nth-child(1), .countries__flex .frame.fadein.scrollin:nth-child(5), .countries__flex .frame.fadein.scrollin:nth-child(7) {
+.countries__grid .frame.fadein.scrollin:nth-child(1), .countries__grid .frame.fadein.scrollin:nth-child(5), .countries__grid .frame.fadein.scrollin:nth-child(7) {
   -webkit-transform: rotate(-7deg) translate(0, 0);
   -moz-transform: rotate(-7deg) translate(0, 0);
   -ms-transform: rotate(-7deg) translate(0, 0);
@@ -305,7 +305,7 @@ html {
   transform: rotate(-7deg) translate(0, 0);
 }
 
-.countries__flex .frame.fadein.scrollin:nth-child(2), .countries__flex .frame.fadein.scrollin:nth-child(4) {
+.countries__grid .frame.fadein.scrollin:nth-child(2), .countries__grid .frame.fadein.scrollin:nth-child(4) {
   -webkit-transform: rotate(5deg) translate(0, 0);
   -moz-transform: rotate(5deg) translate(0, 0);
   -ms-transform: rotate(5deg) translate(0, 0);
@@ -313,7 +313,7 @@ html {
   transform: rotate(5deg) translate(0, 0);
 }
 
-.countries__flex .frame.fadein.scrollin:nth-child(3), .countries__flex .frame.fadein.scrollin:nth-child(6), .countries__flex .frame.fadein.scrollin:nth-child(8) {
+.countries__grid .frame.fadein.scrollin:nth-child(3), .countries__grid .frame.fadein.scrollin:nth-child(6), .countries__grid .frame.fadein.scrollin:nth-child(8) {
   -webkit-transform: rotate(10deg) translate(0, 0);
   -moz-transform: rotate(10deg) translate(0, 0);
   -ms-transform: rotate(10deg) translate(0, 0);
@@ -321,12 +321,45 @@ html {
   transform: rotate(10deg) translate(0, 0);
 }
 
-.countries__flex .frame.fadein.scrollin:hover {
+.countries__grid .frame.fadein.scrollin:hover {
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
+}
+
+@media (min-width: 1000px) {
+  .countries__grid {
+    display: grid;
+    grid-template-columns: 50px 250px 50px 250px 50px 250px 50px;
+    grid-template-rows: 150px 150px 50px 100px 150px 150px 50px 100px 150px 150px 50px;
+  }
+  .countries__grid--bg1 {
+    grid-column: 1 / span 6;
+    grid-row: 2 / span 2;
+    width: 80%;
+    height: 350px;
+    background-color: #EF691B;
+    z-index: -5;
+  }
+  .countries__grid--bg2 {
+    grid-column: 3 / span 6;
+    grid-row: 6 / span 2;
+    width: 80%;
+    height: 350px;
+    background-color: #2AAF8C;
+    z-index: -5;
+    margin-left: auto;
+  }
+  .countries__grid--bg3 {
+    grid-column: 1 / span 6;
+    grid-row: 10 / span 2;
+    width: 80%;
+    height: 350px;
+    background-color: #EED351;
+    z-index: -5;
+  }
 }
 
 html {
