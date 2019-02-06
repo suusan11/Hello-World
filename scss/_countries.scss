@@ -59,7 +59,7 @@
   .countries__grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr minmax(270px, 4fr)) 1fr;
-    grid-template-rows: repeat(3, 50px 100px 150px 50px 100px 80px);
+    grid-template-rows: repeat(3, 50px 100px 150px 50px 100px 150px);
     grid-gap: 10px;
 
     &--bg1 {
