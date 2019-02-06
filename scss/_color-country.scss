@@ -19,10 +19,6 @@
   }
 }
 
-.footer--australia {
-  background-color: $australia;
-}
-
 .gallery--australia h2 {
   &::before {
     @include guideLineTop($australia);
@@ -34,112 +30,106 @@
 
 
 //Canada
+.box__color--canada::before {
+  @include imgBox($canada);
+}
+
 .img__shadow--canada {
   @include imgShadow($canada-opacity);
 }
 
-.color--canada {
+.line__color--canada {
   h2::after {
     @include guideLine($canada);
   }
 }
 
-.footer--canada {
-  background-color: $canada;
+//Finland
+.box__color--finland::before {
+  @include imgBox($finland);
 }
 
-
-//Finland
 .img__shadow--finland {
   @include imgShadow($finland-opacity);
 }
 
-.color--finland {
+.line__color--finland {
   h2::after {
     @include guideLine($finland);
   }
 }
 
-.footer--finland {
-  background-color: $finland;
+//German
+.box__color--german::before {
+  @include imgBox($german);
 }
 
-
-//German
 .img__shadow--german {
   @include imgShadow($german-opacity);
 }
 
-.color--german {
+.line__color--german {
   h2::after {
     @include guideLine($german);
   }
 }
 
-.footer--german {
-  background-color: $german;
+//Malaysia
+.box__color--malaysia::before {
+  @include imgBox($malaysia);
 }
 
-
-//Malaysia
 .img__shadow--malaysia {
   @include imgShadow($malaysia-opacity);
 }
 
-.color--malaysia {
+.line__color--malaysia {
   h2::after {
     @include guideLine($malaysia);
   }
 }
 
-.footer--malaysia {
-  background-color: $malaysia;
+//Taiwan
+.box__color--taiwan::before {
+  @include imgBox($taiwan);
 }
 
-
-//Taiwan
 .img__shadow--taiwan {
   @include imgShadow($taiwan-opacity);
 }
 
-.color--taiwan {
+.line__color--taiwan {
   h2::after {
     @include guideLine($taiwan);
   }
 }
 
-.footer--taiwan {
-  background-color: $taiwan;
+//Thailand
+.box__color--thailand::before {
+  @include imgBox($thailand);
 }
 
-
-//Thailand
 .img__shadow--thailand {
   @include imgShadow($thailand-opacity);
 }
 
-.color--thailand {
+.line__color--thailand {
   h2::after {
     @include guideLine($thailand);
   }
 }
 
-.footer--thailand {
-  background-color: $thailand;
+//USA
+.box__color--usa::before {
+  @include imgBox($usa);
 }
 
-
-//USA
 .img__shadow--usa {
   @include imgShadow($usa-opacity);
 }
 
-.color--usa {
+.line__color--usa {
   h2::after {
     @include guideLine($usa);
   }
-}
-
-.footer--usa {
-  background-color: $usa;
 }

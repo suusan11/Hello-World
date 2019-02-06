@@ -668,10 +668,6 @@ html {
   margin-top: 10%;
 }
 
-.footer--australia {
-  background-color: #46509F;
-}
-
 .gallery--australia h2::before {
   content: "";
   display: block;
@@ -692,6 +688,17 @@ html {
   border-bottom: 2px solid #46509F;
 }
 
+.box__color--canada::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #B0272C;
+  background-color: transparent;
+}
+
 .img__shadow--canada {
   position: absolute;
   top: 0;
@@ -702,7 +709,7 @@ html {
   z-index: 2;
 }
 
-.color--canada h2::after {
+.line__color--canada h2::after {
   content: "";
   display: block;
   width: 30px;
@@ -710,8 +717,15 @@ html {
   margin-top: 10%;
 }
 
-.footer--canada {
-  background-color: #B0272C;
+.box__color--finland::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #3B91A6;
+  background-color: transparent;
 }
 
 .img__shadow--finland {
@@ -724,7 +738,7 @@ html {
   z-index: 2;
 }
 
-.color--finland h2::after {
+.line__color--finland h2::after {
   content: "";
   display: block;
   width: 30px;
@@ -732,8 +746,15 @@ html {
   margin-top: 10%;
 }
 
-.footer--finland {
-  background-color: #3B91A6;
+.box__color--german::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #E59948;
+  background-color: transparent;
 }
 
 .img__shadow--german {
@@ -746,7 +767,7 @@ html {
   z-index: 2;
 }
 
-.color--german h2::after {
+.line__color--german h2::after {
   content: "";
   display: block;
   width: 30px;
@@ -754,8 +775,15 @@ html {
   margin-top: 10%;
 }
 
-.footer--german {
-  background-color: #E59948;
+.box__color--malaysia::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #938BFF;
+  background-color: transparent;
 }
 
 .img__shadow--malaysia {
@@ -768,7 +796,7 @@ html {
   z-index: 2;
 }
 
-.color--malaysia h2::after {
+.line__color--malaysia h2::after {
   content: "";
   display: block;
   width: 30px;
@@ -776,8 +804,15 @@ html {
   margin-top: 10%;
 }
 
-.footer--malaysia {
-  background-color: #938BFF;
+.box__color--taiwan::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #B77388;
+  background-color: transparent;
 }
 
 .img__shadow--taiwan {
@@ -790,7 +825,7 @@ html {
   z-index: 2;
 }
 
-.color--taiwan h2::after {
+.line__color--taiwan h2::after {
   content: "";
   display: block;
   width: 30px;
@@ -798,8 +833,15 @@ html {
   margin-top: 10%;
 }
 
-.footer--taiwan {
-  background-color: #B77388;
+.box__color--thailand::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #FECC35;
+  background-color: transparent;
 }
 
 .img__shadow--thailand {
@@ -812,7 +854,7 @@ html {
   z-index: 2;
 }
 
-.color--thailand h2::after {
+.line__color--thailand h2::after {
   content: "";
   display: block;
   width: 30px;
@@ -820,8 +862,15 @@ html {
   margin-top: 10%;
 }
 
-.footer--thailand {
-  background-color: #FECC35;
+.box__color--usa::before {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  width: 100%;
+  height: 100%;
+  border: 3px solid #9FA9A2;
+  background-color: transparent;
 }
 
 .img__shadow--usa {
@@ -834,16 +883,12 @@ html {
   z-index: 2;
 }
 
-.color--usa h2::after {
+.line__color--usa h2::after {
   content: "";
   display: block;
   width: 30px;
   border-bottom: 2px solid #9FA9A2;
   margin-top: 10%;
-}
-
-.footer--usa {
-  background-color: #9FA9A2;
 }
 
 .gallery {
