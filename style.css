@@ -423,52 +423,35 @@ html {
 .about {
   width: 100%;
   height: auto;
-  margin-top: 7%;
-  padding-bottom: 20px;
-  background-color: #4799B7;
+  padding-bottom: 3%;
   text-align: center;
 }
 
 .about h2 {
-  display: inline-block;
-  font-size: 2rem;
   font-family: "Signika Negative", sans-serif;
   font-weight: lighter;
-  color: #333333;
   letter-spacing: 5px;
   padding: 5% 0;
 }
 
-.about__flex {
+.about__container {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
   padding-bottom: 5%;
+  text-align: center;
 }
 
-.about__flex--left {
-  display: inline-block;
-  width: 45%;
-}
-
-.about__flex--left img {
-  width: 250px;
-  height: 250px;
+.about__container img {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   border-radius: 50%;
 }
 
-.about__flex--right {
-  display: inline-block;
-  text-align: right;
-  width: 45%;
-}
-
-.about__flex--right p {
+.about__container p {
+  width: 50%;
   font-size: 1.25rem;
   line-height: 40px;
+  margin: 2% auto;
 }
 
 html {

@@ -3,51 +3,33 @@
 .about {
   width: 100%;
   height: auto;
-  margin-top: 7%;
-  padding-bottom: 20px;
-  background-color: $primary-blue;
+  padding-bottom: 3%;
   text-align: center;
 
   h2 {
-    display: inline-block;
-    font-size: $font-size-h2;
     font-family: $font-heading;
     font-weight: $font-weight-light;
-    color: $black;
     letter-spacing: 5px;
     padding: 5% 0;
   }
 
-  &__flex {
+  &__container {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
     padding-bottom: 5%;
-
-    &--left {
-      display: inline-block;
-      width: 45%;
+    text-align: center;
 
       img {
-        width: 250px;
-        height: 250px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         border-radius: 50%;
       }
-    }
-
-    &--right {
-      display: inline-block;
-      text-align: right;
-      width: 45%;
 
       p {
+        width: 50%;
         font-size: $font-size-p;
         line-height: 40px;
+        margin: 2% auto;
       }
-    }
-
   }
 }
