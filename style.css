@@ -116,6 +116,11 @@ p {
   font-size: 1.25rem;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 html {
   font-family: "Mukta", sans-serif;
   font-size: 16px;
@@ -124,11 +129,6 @@ html {
   -webkit-font-smoothing: subpixel-antialiased;
   font-variant-ligatures: common-ligatures;
   color: #333333;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
 }
 
 .header__nav {
