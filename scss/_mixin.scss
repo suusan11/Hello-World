@@ -76,6 +76,7 @@
 @mixin gridBg($color) {
   width: 90%;
   background-image: linear-gradient($color);
+  opacity: 0.8;
   z-index: -5;
 }
 
