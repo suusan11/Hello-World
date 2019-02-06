@@ -564,7 +564,8 @@ html {
   display: flex;
   justify-content: center;
   text-align: center;
-  min-height: 624px;
+  margin-top: 5%;
+  min-height: 580px;
 }
 
 .home__flex--left {
