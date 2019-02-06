@@ -91,3 +91,9 @@
     @content;
   }
 }
+
+@mixin mobileSize {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
