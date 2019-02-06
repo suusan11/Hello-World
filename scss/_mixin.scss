@@ -75,7 +75,7 @@
 //index.html countries section
 @mixin gridBg($color) {
   width: 90%;
-  background-color: $color;
+  background-image: linear-gradient($color);
   z-index: -5;
 }
 
