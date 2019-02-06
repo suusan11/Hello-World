@@ -454,6 +454,16 @@ html {
   margin: 2% auto;
 }
 
+@media (max-width: 640px) {
+  .about__container img {
+    width: 250px;
+    height: 250px;
+  }
+  .about__container p {
+    width: 80%;
+  }
+}
+
 html {
   font-family: "Mukta", sans-serif;
   font-size: 16px;

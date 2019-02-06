@@ -1,4 +1,4 @@
-@import "variable", "typography";
+@import "variable", "typography", "mixin";
 
 .about {
   width: 100%;
@@ -31,5 +31,17 @@
         line-height: 40px;
         margin: 2% auto;
       }
+  }
+}
+
+@include mobileSize {
+  .about__container {
+    img {
+      width: 250px;
+      height: 250px
+    }
+    p {
+      width: 80%;
+    }
   }
 }
