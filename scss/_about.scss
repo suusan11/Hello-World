@@ -18,21 +18,32 @@
     padding-bottom: 5%;
     text-align: center;
 
-      img {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-        border-radius: 50%;
-      }
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
 
-      p {
-        width: 50%;
-        font-size: $font-size-p;
-        line-height: 40px;
-        margin: 2% auto;
-      }
+    p {
+      width: 50%;
+      font-size: $font-size-p;
+      line-height: 40px;
+      margin: 2% auto;
+    }
+  }
+
+  .line-design1 {
+    height: 64px;
+    background: url("../images/line-airplane.png") repeat-x;
+  }
+  .line-design2 {
+    height: 27px;
+    background: url("../images/line-cloud.png") repeat-x;
   }
 }
+
+
 
 @include mobileSize {
   .about__container {

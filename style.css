@@ -454,6 +454,16 @@ html {
   margin: 2% auto;
 }
 
+.about .line-design1 {
+  height: 64px;
+  background: url("../images/line-airplane.png") repeat-x;
+}
+
+.about .line-design2 {
+  height: 27px;
+  background: url("../images/line-cloud.png") repeat-x;
+}
+
 @media (max-width: 640px) {
   .about__container img {
     width: 250px;
