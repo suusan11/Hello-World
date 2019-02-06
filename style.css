@@ -250,13 +250,8 @@ html {
   transform: rotateX(45deg);
 }
 
-.countries__grid {
-  width: 100%;
-  margin: 0 auto;
-}
-
 .countries__grid .frame {
-  margin: 0 5% 7% 5%;
+  margin-bottom: 7%;
   /* ----- scroll effect ----- */
 }
 
@@ -272,8 +267,9 @@ html {
 @media (min-width: 1000px) {
   .countries__grid {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+    grid-template-columns: repeat(3, 1fr minmax(270px, 4fr)) 1fr;
     grid-template-rows: repeat(3, 150px 150px 150px 80px);
+    gap: 10px;
   }
   .countries__grid--bg1 {
     grid-column: 1 / span 6;
@@ -334,8 +330,9 @@ html {
 @media (min-width: 640px) and (max-width: 999px) {
   .countries__grid {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 4fr 1fr;
+    grid-template-columns: repeat(2, 1fr minmax(270px, 4fr)) 1fr;
     grid-template-rows: repeat(4, 150px 150px 50px 50px);
+    gap: 10px;
   }
   .countries__grid--bg1 {
     grid-column: 1 / span 4;
