@@ -74,8 +74,7 @@
 
 //index.html countries section
 @mixin gridBg($color) {
-  width: 80%;
-  height: 350px;
+  width: 90%;
   background-color: $color;
   z-index: -5;
 }
