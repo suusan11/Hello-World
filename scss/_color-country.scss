@@ -5,11 +5,15 @@
 //  @include imgShade("Australia", $australia-opacity);
 //}
 
+.box__color--australia::before {
+  @include imgBox($australia);
+}
+
 .img__shadow--australia {
   @include imgShadow($australia-opacity);
 }
 
-.color--australia {
+.line__color--australia {
   h2::after {
     @include guideLine($australia);
   }
