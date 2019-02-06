@@ -354,7 +354,7 @@ html {
     grid-column: 1 / span 4;
     grid-row: 3 / span 5;
     width: 90%;
-    background-image: linear-gradient(#EF691B);
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
     opacity: 0.8;
     z-index: -5;
   }
@@ -362,7 +362,7 @@ html {
     grid-column: 2 / span 4;
     grid-row: 9 / span 5;
     width: 90%;
-    background-image: linear-gradient(#2AAF8C);
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
     opacity: 0.8;
     z-index: -5;
     margin-left: auto;
@@ -372,7 +372,7 @@ html {
     grid-column: 1 / span 4;
     grid-row: 15 / span 5;
     width: 90%;
-    background-image: linear-gradient(#EED351);
+    background-image: linear-gradient(#C6FFDD, #FBD786, #f7797d);
     opacity: 0.8;
     z-index: -5;
     margin-top: 5%;

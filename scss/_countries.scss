@@ -133,13 +133,13 @@
     &--bg1 {
       grid-column: 1 / span 4;
       grid-row: 3 / span 5;
-      @include gridBg($orange);
+      @include gridBg($gradient);
     }
 
     &--bg2 {
       grid-column: 2 / span 4;
       grid-row: 9 / span 5;
-      @include gridBg($green);
+      @include gridBg($gradient);
       margin-left: auto;
       margin-top: 5%;
     }
@@ -147,7 +147,7 @@
     &--bg3 {
       grid-column: 1 / span 4;
       grid-row: 15 / span 5;
-      @include gridBg($blue);
+      @include gridBg($gradient);
       margin-top: 5%;
     }
 
