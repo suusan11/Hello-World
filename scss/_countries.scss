@@ -78,7 +78,7 @@
 @include pcSize {
   .countries__grid {
     display: grid;
-    grid-template-columns: 50px 300px 50px 300px 50px 300px 50px;
+    grid-template-columns: 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
     grid-template-rows: 150px 150px 150px 100px 150px 150px 150px 100px 150px 150px 150px;
   }
 
