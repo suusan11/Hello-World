@@ -1,3 +1,5 @@
+@import "variable";
+
 @mixin transformBefore ($value) {
   -webkit-transform: rotate($value) translate(0, 50px);
   -moz-transform: rotate($value) translate(0, 50px);
@@ -84,9 +86,9 @@
 }
 
 //index.html countries section
-@mixin gridBg($color) {
+@mixin gridBg() {
   width: 90%;
-  background-image: linear-gradient($color);
+  background-image: linear-gradient($gradient);
   opacity: 0.8;
   z-index: -5;
 }
