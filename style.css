@@ -423,7 +423,6 @@ html {
 .about {
   width: 100%;
   height: auto;
-  padding-bottom: 3%;
   text-align: center;
 }
 
@@ -454,14 +453,9 @@ html {
   margin: 2% auto;
 }
 
-.about .line-design1 {
-  height: 64px;
-  background: url("../images/line-airplane.png") repeat-x;
-}
-
-.about .line-design2 {
-  height: 27px;
-  background: url("../images/line-cloud.png") repeat-x;
+.about .line-design {
+  height: 100px;
+  background: url("../images/building.png") repeat-x;
 }
 
 @media (max-width: 640px) {
