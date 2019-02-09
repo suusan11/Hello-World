@@ -86,11 +86,12 @@
 }
 
 //index.html countries section
-@mixin gridBg() {
-  width: 90%;
+@mixin gridBg($deg) {
+  width: 100%;
   background-image: linear-gradient($gradient);
-  opacity: 0.8;
+  opacity: 0.6;
   z-index: -5;
+  transform: skewY($deg);
 }
 
 //responsive

@@ -28,13 +28,12 @@
     position: relative;
 
     &--bg1 {
-      @include gridBg();
+      @include gridBg(0);
       position: absolute;
       top: 5%;
       left: 0;
       width: 50%;
       height: 90%;
-
     }
 
     &--photo1,
@@ -74,22 +73,21 @@
     grid-gap: 10px;
 
     &--bg1 {
-      grid-column: 1 / span 6;
+      grid-column: 1 / span 7;
       grid-row: 3 / span 3;
-      @include gridBg();
+      @include gridBg(5deg);
     }
 
     &--bg2 {
-      grid-column: 2 / span 6;
+      grid-column: 1 / span 7;
       grid-row: 9 / span 3;
-      @include gridBg();
-      margin-left: auto;
+      @include gridBg(-5deg);
     }
 
     &--bg3 {
-      grid-column: 1 / span 6;
+      grid-column: 1 / span 7;
       grid-row: 15 / span 3;
-      @include gridBg();
+      @include gridBg(5deg);
     }
 
     &--photo1 {
@@ -99,17 +97,17 @@
 
     &--photo2 {
       grid-column: 4 / span 1;
-      grid-row: 2 / span 3;
+      grid-row: 3 / span 3;
     }
 
     &--photo3 {
       grid-column: 6 / span 1;
-      grid-row: 1 / span 3;
+      grid-row: 2 / span 3;
     }
 
     &--photo4 {
       grid-column: 2 / span 1;
-      grid-row: 8 / span 3;
+      grid-row: 9 / span 3;
     }
 
     &--photo5 {
@@ -129,7 +127,7 @@
 
     &--photo8 {
       grid-column: 4 / span 1;
-      grid-row: 14 / span 3;
+      grid-row: 15 / span 3;
     }
   }
 }
@@ -142,24 +140,21 @@
     grid-gap: 10px;
 
     &--bg1 {
-      grid-column: 1 / span 4;
-      grid-row: 3 / span 5;
-      @include gridBg();
+      grid-column: 1 / span 5;
+      grid-row: 4 / span 4;
+      @include gridBg(10deg);
     }
 
     &--bg2 {
-      grid-column: 2 / span 4;
-      grid-row: 9 / span 5;
-      @include gridBg();
-      margin-left: auto;
-      margin-top: 5%;
+      grid-column: 1 / span 5;
+      grid-row: 10 / span 4;
+      @include gridBg(-10deg);
     }
 
     &--bg3 {
-      grid-column: 1 / span 4;
-      grid-row: 15 / span 5;
-      @include gridBg();
-      margin-top: 5%;
+      grid-column: 1 / span 5;
+      grid-row: 16 / span 4;
+      @include gridBg(10deg);
     }
 
     &--photo1 {
