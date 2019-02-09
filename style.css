@@ -297,7 +297,7 @@ html {
 @media (min-width: 1000px) {
   .countries__grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr minmax(270px, 4fr)) 1fr;
+    grid-template-columns: repeat(3, 1fr minmax(270px, 3fr)) 1fr;
     grid-template-rows: repeat(3, 50px 100px 150px 50px 100px 150px);
     grid-gap: 10px;
   }
@@ -443,6 +443,7 @@ html {
 .about {
   width: 100%;
   height: auto;
+  margin-top: 50px;
   text-align: center;
 }
 
