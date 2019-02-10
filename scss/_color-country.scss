@@ -140,6 +140,15 @@
   }
 }
 
+.gallery--taiwan h2 {
+  &::before {
+    @include guideLineTop($taiwan);
+  }
+  &::after {
+    @include guideLineBottom($taiwan);
+  }
+}
+
 //Thailand
 .box__color--thailand::before {
   @include imgBox($thailand);
