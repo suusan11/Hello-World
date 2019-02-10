@@ -44,6 +44,15 @@
   }
 }
 
+.gallery--canada h2 {
+  &::before {
+    @include guideLineTop($canada);
+  }
+  &::after {
+    @include guideLineBottom($canada);
+  }
+}
+
 //Finland
 .box__color--finland::before {
   @include imgBox($finland);

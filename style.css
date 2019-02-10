@@ -742,6 +742,26 @@ html {
   margin-top: 10%;
 }
 
+.gallery--canada h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  width: 67px;
+  border-top: 2px solid #B0272C;
+}
+
+.gallery--canada h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  right: -30px;
+  width: 67px;
+  border-bottom: 2px solid #B0272C;
+}
+
 .box__color--finland::before {
   content: '';
   position: absolute;
