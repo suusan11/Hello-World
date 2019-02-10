@@ -92,6 +92,15 @@
   }
 }
 
+.gallery--german h2 {
+  &::before {
+    @include guideLineTop($german);
+  }
+  &::after {
+    @include guideLineBottom($german);
+  }
+}
+
 //Malaysia
 .box__color--malaysia::before {
   @include imgBox($malaysia);
