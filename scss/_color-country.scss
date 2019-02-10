@@ -187,3 +187,12 @@
     @include guideLine($usa);
   }
 }
+
+.gallery--usa h2 {
+  &::before {
+    @include guideLineTop($usa);
+  }
+  &::after {
+    @include guideLineBottom($usa);
+  }
+}

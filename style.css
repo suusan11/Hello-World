@@ -1036,6 +1036,26 @@ html {
   margin-top: 10%;
 }
 
+.gallery--usa h2::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  width: 67px;
+  border-top: 2px solid #9FA9A2;
+}
+
+.gallery--usa h2::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  right: -30px;
+  width: 67px;
+  border-bottom: 2px solid #9FA9A2;
+}
+
 .gallery {
   margin: 5% 10%;
 }
