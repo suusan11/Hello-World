@@ -68,6 +68,15 @@
   }
 }
 
+.gallery--finland h2 {
+  &::before {
+    @include guideLineTop($finland);
+  }
+  &::after {
+    @include guideLineBottom($finland);
+  }
+}
+
 //German
 .box__color--german::before {
   @include imgBox($german);
