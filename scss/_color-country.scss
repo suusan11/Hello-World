@@ -164,6 +164,15 @@
   }
 }
 
+.gallery--thailand h2 {
+  &::before {
+    @include guideLineTop($thailand);
+  }
+  &::after {
+    @include guideLineBottom($thailand);
+  }
+}
+
 //USA
 .box__color--usa::before {
   @include imgBox($usa);
