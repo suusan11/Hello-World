@@ -116,6 +116,15 @@
   }
 }
 
+.gallery--malaysia h2 {
+  &::before {
+    @include guideLineTop($malaysia);
+  }
+  &::after {
+    @include guideLineBottom($malaysia);
+  }
+}
+
 //Taiwan
 .box__color--taiwan::before {
   @include imgBox($taiwan);
