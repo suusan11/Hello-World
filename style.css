@@ -1072,7 +1072,6 @@ html {
   grid-template-columns: 0.5fr 0.5fr 3fr 1fr 1fr 2fr 1fr 1fr 1fr;
   grid-template-rows: 500px 50px 200px 300px 400px 50px 450px 150px 350px 50px 200px 300px 200px 300px;
   grid-gap: 20px;
-  overflow: hidden;
 }
 
 .grid__container--attractions img {
@@ -1114,4 +1113,18 @@ html {
 .grid__container--attractions.item7 {
   grid-column: 6 / span 4;
   grid-row: 12 / span 3;
+}
+
+@media (min-width: 640px) and (max-width: 999px) {
+  .grid__container--attractions {
+    display: block;
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid__container--attractions {
+    display: block;
+    margin-bottom: 10%;
+  }
 }

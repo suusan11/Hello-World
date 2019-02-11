@@ -1,10 +1,11 @@
+@import 'mixin';
+
 .grid__container--attractions {
   width: 100%;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 3fr 1fr 1fr 2fr 1fr 1fr 1fr;
   grid-template-rows: 500px 50px 200px 300px 400px 50px 450px 150px 350px 50px 200px 300px 200px 300px;
   grid-gap: 20px;
-  overflow: hidden;
 
   img {
     width: 100%;
@@ -45,5 +46,19 @@
   &.item7 {
     grid-column: 6 / span 4;
     grid-row: 12 / span 3;
+  }
+}
+
+@include middleSize {
+  .grid__container--attractions {
+    display: block;
+    margin-bottom: 10%;
+  }
+}
+
+@include mobileSize {
+  .grid__container--attractions {
+    display: block;
+    margin-bottom: 10%;
   }
 }
