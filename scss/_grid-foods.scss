@@ -1,0 +1,64 @@
+@import 'mixin';
+
+.grid__container--foods {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 4fr 3fr 4fr;
+  grid-template-rows: 500px 600px 50px 300px 100px 200px 200px 200px 300px 500px;
+  grid-gap: 150px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &.item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 1;
+  }
+
+  &.item2 {
+    grid-column: 3 / span 3;
+    grid-row: 2 / span 1;
+  }
+
+  &.item3 {
+    grid-column: 1 / span 4;
+    grid-row: 3 / span 2;
+  }
+
+  &.item4 {
+    grid-column: 4 / span 2;
+    grid-row: 5 / span 2;
+  }
+
+  &.item5 {
+    grid-column: 1 / span 3;
+    grid-row: 6 / span 2;
+  }
+
+  &.item6 {
+    grid-column: 3 / span 3;
+    grid-row: 8 / span 2;
+  }
+
+  &.item7 {
+    grid-column: 1 / span 4;
+    grid-row: 10 / span 1;
+  }
+}
+
+@include middleSize {
+  .grid__container--foods {
+    display: block;
+    margin-bottom: 10%;
+  }
+}
+
+@include mobileSize {
+  .grid__container--foods {
+    display: block;
+    margin-bottom: 10%;
+  }
+}
