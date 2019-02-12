@@ -46,8 +46,20 @@
   @include imgBox($canada);
 }
 
+@include mobileSize {
+  .box__color--canada::before {
+    @include imgBoxMB($canada);
+  }
+}
+
 .img__shadow--canada {
   @include imgShadow($canada-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--canada {
+    @include imgShadowMB($canada-opacity);
+  }
 }
 
 .line__color--canada {
@@ -70,8 +82,20 @@
   @include imgBox($finland);
 }
 
+@include mobileSize {
+  .box__color--finland::before {
+    @include imgBoxMB($finland);
+  }
+}
+
 .img__shadow--finland {
   @include imgShadow($finland-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--finland {
+    @include imgShadowMB($finland-opacity);
+  }
 }
 
 .line__color--finland {
@@ -94,8 +118,20 @@
   @include imgBox($german);
 }
 
+@include mobileSize {
+  .box__color--german::before {
+    @include imgBoxMB($german);
+  }
+}
+
 .img__shadow--german {
   @include imgShadow($german-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--german {
+    @include imgShadowMB($german-opacity);
+  }
 }
 
 .line__color--german {
@@ -118,8 +154,20 @@
   @include imgBox($malaysia);
 }
 
+@include mobileSize {
+  .box__color--malaysia::before {
+    @include imgBoxMB($malaysia);
+  }
+}
+
 .img__shadow--malaysia {
   @include imgShadow($malaysia-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--malaysia {
+    @include imgShadowMB($malaysia-opacity);
+  }
 }
 
 .line__color--malaysia {
@@ -142,8 +190,20 @@
   @include imgBox($taiwan);
 }
 
+@include mobileSize {
+  .box__color--taiwan::before {
+    @include imgBoxMB($taiwan);
+  }
+}
+
 .img__shadow--taiwan {
   @include imgShadow($taiwan-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--taiwan {
+    @include imgShadowMB($taiwan-opacity);
+  }
 }
 
 .line__color--taiwan {
@@ -166,8 +226,20 @@
   @include imgBox($thailand);
 }
 
+@include mobileSize {
+  .box__color--thailand::before {
+    @include imgBoxMB($thailand);
+  }
+}
+
 .img__shadow--thailand {
   @include imgShadow($thailand-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--thailand {
+    @include imgShadowMB($thailand-opacity);
+  }
 }
 
 .line__color--thailand {
@@ -190,8 +262,20 @@
   @include imgBox($usa);
 }
 
+@include mobileSize {
+  .box__color--usa::before {
+    @include imgBoxMB($usa);
+  }
+}
+
 .img__shadow--usa {
   @include imgShadow($usa-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--usa {
+    @include imgShadowMB($usa-opacity);
+  }
 }
 
 .line__color--usa {
