@@ -74,7 +74,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -137,7 +137,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -179,7 +179,7 @@ html {
   width: 100%;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .header__nav {
     display: none;
   }
@@ -195,7 +195,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -249,7 +249,7 @@ html {
   color: #ffffff;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .hero {
     margin-top: 20%;
   }
@@ -271,7 +271,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -295,7 +295,7 @@ html {
   transform: rotateX(45deg);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .countries__grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -482,7 +482,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -527,7 +527,7 @@ html {
   background: url("../images/building.png") repeat-x;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .about__container img {
     width: 250px;
     height: 250px;
@@ -547,7 +547,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -575,7 +575,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -628,7 +628,7 @@ html {
   opacity: 0.7;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .frame__photobox {
     height: 250px;
   }
@@ -644,7 +644,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -709,7 +709,7 @@ html {
   padding: 5% 0;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .home__flex {
     display: block;
     margin-top: 20%;
@@ -727,6 +727,24 @@ html {
   }
   .home__flex--right {
     width: 100%;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 999px) {
+  .home__flex {
+    display: block;
+    margin-top: 20%;
+  }
+  .home__flex--left {
+    width: 100%;
+  }
+  .home__flex--left img {
+    width: 60%;
+    object-position: 0 0;
+  }
+  .home__flex--right {
+    width: 60%;
+    margin: 0 auto;
   }
 }
 
@@ -751,7 +769,7 @@ html {
   color: #333333;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   html {
     font-size: 12px;
   }
@@ -768,13 +786,26 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--australia::before {
     content: '';
     position: absolute;
     top: -5%;
     left: 2%;
     width: 90%;
+    height: 100%;
+    border: 3px solid #46509F;
+    background-color: transparent;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 999px) {
+  .box__color--australia::before {
+    content: '';
+    position: absolute;
+    top: -5%;
+    left: 15%;
+    width: 60%;
     height: 100%;
     border: 3px solid #46509F;
     background-color: transparent;
@@ -791,13 +822,25 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--australia {
     position: absolute;
     top: 0;
     left: 5%;
     width: 90%;
     height: 210px;
+    background-color: rgba(70, 80, 159, 0.5);
+    z-index: 2;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 999px) {
+  .img__shadow--australia {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 535px;
     background-color: rgba(70, 80, 159, 0.5);
     z-index: 2;
   }
@@ -842,7 +885,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--canada::before {
     content: '';
     position: absolute;
@@ -865,7 +908,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--canada {
     position: absolute;
     top: 0;
@@ -916,7 +959,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--finland::before {
     content: '';
     position: absolute;
@@ -939,7 +982,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--finland {
     position: absolute;
     top: 0;
@@ -990,7 +1033,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--german::before {
     content: '';
     position: absolute;
@@ -1013,7 +1056,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--german {
     position: absolute;
     top: 0;
@@ -1064,7 +1107,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--malaysia::before {
     content: '';
     position: absolute;
@@ -1087,7 +1130,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--malaysia {
     position: absolute;
     top: 0;
@@ -1138,7 +1181,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--taiwan::before {
     content: '';
     position: absolute;
@@ -1161,7 +1204,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--taiwan {
     position: absolute;
     top: 0;
@@ -1212,7 +1255,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--thailand::before {
     content: '';
     position: absolute;
@@ -1235,7 +1278,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--thailand {
     position: absolute;
     top: 0;
@@ -1286,7 +1329,7 @@ html {
   background-color: transparent;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .box__color--usa::before {
     content: '';
     position: absolute;
@@ -1309,7 +1352,7 @@ html {
   z-index: 2;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .img__shadow--usa {
     position: absolute;
     top: 0;
@@ -1420,7 +1463,7 @@ html {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .grid__container--attractions {
     display: block;
     margin-bottom: 10%;
@@ -1493,7 +1536,7 @@ html {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .grid__container--attractions {
     display: block;
     margin-bottom: 10%;
@@ -1566,7 +1609,7 @@ html {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 639px) {
   .grid__container--attractions {
     display: block;
     margin-bottom: 10%;

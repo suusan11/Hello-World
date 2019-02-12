@@ -83,3 +83,24 @@
     }
   }
 }
+
+@include middleSize {
+  .home__flex {
+    display: block;
+    margin-top: 20%;
+
+    &--left {
+      width: 100%;
+
+      img {
+        width: 60%;
+        object-position: 0 0;
+      }
+    }
+
+    &--right {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+}

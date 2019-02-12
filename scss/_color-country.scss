@@ -15,6 +15,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--australia::before {
+    @include imgBoxMD($australia);
+  }
+}
+
 .img__shadow--australia {
   @include imgShadow($australia-opacity);
 }
@@ -22,6 +28,12 @@
 @include mobileSize {
   .img__shadow--australia {
     @include imgShadowMB($australia-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--australia {
+    @include imgShadowMD($australia-opacity);
   }
 }
 
