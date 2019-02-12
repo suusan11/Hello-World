@@ -1,10 +1,5 @@
 @import "variable", "mixin", "typography";
 
-//Australia
-//.home__img--australia::before {
-//  @include imgShade("Australia", $australia-opacity);
-//}
-
 .box__color--australia::before {
   @include imgBox($australia);
 }
