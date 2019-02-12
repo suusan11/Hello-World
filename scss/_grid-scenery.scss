@@ -50,15 +50,27 @@
 }
 
 @include middleSize {
-  .grid__container--scenery {
+  .grid__container--attractions {
     display: block;
     margin-bottom: 10%;
+
+    img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
   }
 }
 
 @include mobileSize {
-  .grid__container--scenery {
+  .grid__container--attractions {
     display: block;
     margin-bottom: 10%;
+
+    img {
+      width: 100%;
+      height: 370px;
+      object-fit: cover;
+    }
   }
 }
