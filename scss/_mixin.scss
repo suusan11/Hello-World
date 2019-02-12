@@ -24,18 +24,6 @@
   transform: rotate($value);
 }
 
-//@mixin imgShade ($countryName, $color) {
-//  content: $countryName;
-//  display: block;
-//  position: absolute;
-//  top: 0;
-//  left: 0;
-//  z-index: 2;
-//  width: 485px;
-//  height: 535px;
-//  background-color: $color;
-//}
-
 @mixin imgBox($color) {
   content: '';
   position: absolute;
@@ -47,12 +35,33 @@
   background-color: transparent;
 }
 
+@mixin imgBoxMB($color) {
+  content: '';
+  position: absolute;
+  top: -5%;
+  left: 2%;
+  width: 90%;
+  height: 100%;
+  border: 3px solid $color;
+  background-color: transparent;
+}
+
 @mixin imgShadow ($color) {
   position: absolute;
   top: 0;
   left: 0;
   width: 485px;
   height: 535px;
+  background-color: $color;
+  z-index: 2;
+}
+
+@mixin imgShadowMB ($color) {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 210px;
   background-color: $color;
   z-index: 2;
 }

@@ -1,4 +1,4 @@
-@import "variable";
+@import "variable", "mixin";
 
 .header__nav {
   width:100%;
@@ -33,6 +33,12 @@
         }
       }
     }
+  }
+}
+
+@include mobileSize {
+  .header__nav {
+    display: none;
   }
 }
 

@@ -9,8 +9,20 @@
   @include imgBox($australia);
 }
 
+@include mobileSize {
+  .box__color--australia::before {
+    @include imgBoxMB($australia);
+  }
+}
+
 .img__shadow--australia {
   @include imgShadow($australia-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--australia {
+    @include imgShadowMB($australia-opacity);
+  }
 }
 
 .line__color--australia {
