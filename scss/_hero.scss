@@ -35,3 +35,17 @@
     color: $white;
   }
 }
+
+@include mobileSize {
+  .hero {
+    margin-top: 20%;
+
+    img {
+      height: 500px;
+    }
+
+    h1 {
+      line-height: 500px;
+    }
+  }
+}

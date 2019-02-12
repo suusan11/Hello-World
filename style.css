@@ -249,6 +249,18 @@ html {
   color: #ffffff;
 }
 
+@media (max-width: 640px) {
+  .hero {
+    margin-top: 20%;
+  }
+  .hero img {
+    height: 500px;
+  }
+  .hero h1 {
+    line-height: 500px;
+  }
+}
+
 html {
   font-family: "Mukta", sans-serif;
   font-size: 16px;
