@@ -64,6 +64,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--canada::before {
+    @include imgBoxMD($canada);
+  }
+}
+
 .img__shadow--canada {
   @include imgShadow($canada-opacity);
 }
@@ -71,6 +77,12 @@
 @include mobileSize {
   .img__shadow--canada {
     @include imgShadowMB($canada-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--canada {
+    @include imgShadowMD($canada-opacity);
   }
 }
 
@@ -100,6 +112,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--finland::before {
+    @include imgBoxMD($finland);
+  }
+}
+
 .img__shadow--finland {
   @include imgShadow($finland-opacity);
 }
@@ -107,6 +125,12 @@
 @include mobileSize {
   .img__shadow--finland {
     @include imgShadowMB($finland-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--finland {
+    @include imgShadowMD($finland-opacity);
   }
 }
 
@@ -136,6 +160,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--german::before {
+    @include imgBoxMD($german);
+  }
+}
+
 .img__shadow--german {
   @include imgShadow($german-opacity);
 }
@@ -143,6 +173,12 @@
 @include mobileSize {
   .img__shadow--german {
     @include imgShadowMB($german-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--german {
+    @include imgShadowMD($german-opacity);
   }
 }
 
@@ -172,6 +208,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--malaysia::before {
+    @include imgBoxMD($malaysia);
+  }
+}
+
 .img__shadow--malaysia {
   @include imgShadow($malaysia-opacity);
 }
@@ -179,6 +221,12 @@
 @include mobileSize {
   .img__shadow--malaysia {
     @include imgShadowMB($malaysia-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--malaysia {
+    @include imgShadowMD($malaysia-opacity);
   }
 }
 
@@ -208,6 +256,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--taiwan::before {
+    @include imgBoxMD($taiwan);
+  }
+}
+
 .img__shadow--taiwan {
   @include imgShadow($taiwan-opacity);
 }
@@ -215,6 +269,12 @@
 @include mobileSize {
   .img__shadow--taiwan {
     @include imgShadowMB($taiwan-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--taiwan {
+    @include imgShadowMD($taiwan-opacity);
   }
 }
 
@@ -244,6 +304,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--thailand::before {
+    @include imgBoxMD($thailand);
+  }
+}
+
 .img__shadow--thailand {
   @include imgShadow($thailand-opacity);
 }
@@ -251,6 +317,12 @@
 @include mobileSize {
   .img__shadow--thailand {
     @include imgShadowMB($thailand-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--thailand {
+    @include imgShadowMD($thailand-opacity);
   }
 }
 
@@ -280,6 +352,12 @@
   }
 }
 
+@include middleSize {
+  .box__color--usa::before {
+    @include imgBoxMD($usa);
+  }
+}
+
 .img__shadow--usa {
   @include imgShadow($usa-opacity);
 }
@@ -287,6 +365,12 @@
 @include mobileSize {
   .img__shadow--usa {
     @include imgShadowMB($usa-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--usa {
+    @include imgShadowMD($usa-opacity);
   }
 }
 
