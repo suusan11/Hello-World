@@ -1196,7 +1196,7 @@ html {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 3fr 2fr 2fr 3fr 1fr;
-  grid-template-rows: 500px 500px 450px 500px 500px 500px;
+  grid-template-rows: 500px 500px 600px 500px 500px 500px;
   grid-gap: 200px 0;
 }
 
