@@ -11,19 +11,22 @@
 </head>
 <body>
     <header>
-        <nav class="header__nav">
-            <ul class="header__nav--links">
-                <li><a href="">HOME</a></li>
-                <li><a href="#travel">TRAVEL</a></li>
-                <li><a href="#about">ABOUT</a></li>
-            </ul>
-        </nav>
+        <div class="header__flex">
+            <div id="js-scroll-show" class="header__logo is-show">
+                <img src="images/logo2.svg" alt="logo">
+            </div>
+            <nav id="js-nav-container" class="header__nav">
+                <ul class="header__nav--links">
+                    <li><a href="#travel">TRAVEL</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="hero">
-
+    <section  class="hero">
         <img src="images/hero-img2.jpeg" alt="hero">
-        <h1>kulkuri</h1>
+        <h1 id="js-breakPoint">kulkuri</h1>
     </section>
 
     <section id="travel" class="countries">
