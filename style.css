@@ -157,6 +157,11 @@ html {
   z-index: 2;
   width: 50%;
   opacity: 0;
+  -webkit-transition: opacity .5s ease-in;
+  -moz-transition: opacity .5s ease-in;
+  -ms-transition: opacity .5s ease-in;
+  -o-transition: opacity .5s ease-in;
+  transition: opacity .5s ease-in;
 }
 
 .header__logo img {
