@@ -155,7 +155,7 @@ html {
   top: 20px;
   left: 2%;
   z-index: 2;
-  width: 30%;
+  width: 40%;
   opacity: 0;
   -webkit-transition: opacity .5s ease-in;
   -moz-transition: opacity .5s ease-in;
