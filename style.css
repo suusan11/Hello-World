@@ -1825,3 +1825,52 @@ html {
     object-fit: cover;
   }
 }
+
+.header__country {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 3%;
+}
+
+.header__country .header__country--logo {
+  width: 20%;
+}
+
+.header__country .header__country--logo img {
+  width: 20%;
+}
+
+.header__country .header__country--nav {
+  width: 80%;
+}
+
+.header__country .header__country--nav-links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header__country .header__country--nav-links li {
+  margin-left: 3%;
+}
+
+.header__country .header__country--nav-links li a {
+  position: relative;
+  color: #333333;
+}
+
+.header__country .header__country--nav-links li a::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  height: 1px;
+  bottom: -5px;
+  background-color: #333333;
+  transition: .5s ease-out;
+}
+
+.header__country .header__country--nav-links li a:hover::after {
+  width: 100%;
+}
