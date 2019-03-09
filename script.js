@@ -1,3 +1,4 @@
+//show logo depend on scroll value
 function scrollCheck() {
     const scrollValue = window.scrollY;//上からのスクロール値
 
