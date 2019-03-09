@@ -1,4 +1,4 @@
-@import "variable", "mixin";
+@import "variable", "mixin", "typography";
 
 .header__country {
   display: flex;
@@ -48,9 +48,28 @@
   }
 }
 
+.header__country--mb {
+  display: none;
+}
+
+
+
 @include mobileSize {
   //this header is for only pc and tablet
   .header__country {
     display: none;
+  }
+
+  .header__country--mb {
+    display: block;
+    padding: 20px 5% 0;
+
+    p {
+      font-weight: $font-weight-light;
+    }
+
+    a {
+      color: $black;
+    }
   }
 }

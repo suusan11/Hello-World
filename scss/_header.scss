@@ -66,28 +66,10 @@
   }
 }
 
-.header__country-mb {
-  display: none;
-}
-
 
 @include mobileSize {
   .header__nav {
     display: none;
   }
-
-  .header__country--mb {
-    display: block;
-    padding: 20px 5% 0;
-
-    p {
-      font-weight: $font-weight-light;
-    }
-
-    a {
-      color: $black;
-    }
-  }
-
 }
 
