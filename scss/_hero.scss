@@ -36,7 +36,7 @@
     content: url("https://suusan11.github.io/kulkuri/images/icon/scroll-arrow.png");
     position: absolute;
     bottom: 0;
-    left: 48%;
+    right: 48%;
     padding: 2% 0;
     -webkit-animation: bounce 2s infinite;
     -o-animation: bounce 2s infinite;
@@ -79,6 +79,10 @@
 
     h1 {
       line-height: 600px;
+    }
+
+    &::before {
+      right: 45%;
     }
   }
 }

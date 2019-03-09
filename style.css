@@ -254,7 +254,7 @@ html {
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-image: url("../images/hero-img2.jpeg");
+  background-image: url("https://suusan11.github.io/kulkuri/images/hero-img2.jpeg");
   background-size: cover;
   animation: opacity 1s ease-in;
 }
@@ -295,10 +295,10 @@ html {
 }
 
 .hero::before {
-  content: url("../images/icon/scroll-arrow.png");
+  content: url("https://suusan11.github.io/kulkuri/images/icon/scroll-arrow.png");
   position: absolute;
   bottom: 0;
-  left: 48%;
+  right: 48%;
   padding: 2% 0;
   -webkit-animation: bounce 2s infinite;
   -o-animation: bounce 2s infinite;
@@ -339,6 +339,9 @@ html {
   }
   .hero h1 {
     line-height: 600px;
+  }
+  .hero::before {
+    right: 45%;
   }
 }
 
@@ -1989,25 +1992,25 @@ html {
     color: #333333;
   }
   .nav__mb--list:nth-child(1)::before {
-    content: url("../images/icon/home.svg");
+    content: url("https://suusan11.github.io/kulkuri/images/icon/home.svg");
     position: absolute;
     top: -30px;
     left: 12%;
   }
   .nav__mb--list:nth-child(2)::before {
-    content: url("../images/icon/attraction.svg");
+    content: url("https://suusan11.github.io/kulkuri/images/icon/attraction.svg");
     position: absolute;
     top: -30px;
     left: 35%;
   }
   .nav__mb--list:nth-child(3)::before {
-    content: url("../images/icon/food.svg");
+    content: url("https://suusan11.github.io/kulkuri/images/icon/food.svg");
     position: absolute;
     top: -30px;
     left: 10%;
   }
   .nav__mb--list:nth-child(4)::before {
-    content: url("../images/icon/scenery.svg");
+    content: url("https://suusan11.github.io/kulkuri/images/icon/scenery.svg");
     position: absolute;
     top: -30px;
     left: 25%;
