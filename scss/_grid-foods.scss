@@ -50,7 +50,7 @@
 }
 
 @include middleSize {
-  .grid__container--attractions {
+  .grid__container--foods {
     display: block;
     margin-bottom: 10%;
 
@@ -63,7 +63,7 @@
 }
 
 @include mobileSize {
-  .grid__container--attractions {
+  .grid__container--foods {
     display: block;
     margin-bottom: 10%;
 
