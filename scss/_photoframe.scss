@@ -15,21 +15,6 @@
     a {
         margin: 0 5% 7% 5%;
 
-        //&:nth-child(1),
-        //&:nth-child(5),
-        //&:nth-child(7){
-        //  @include transformBefore(-7deg);
-        //}
-        //&:nth-child(2),
-        //&:nth-child(4) {
-        //  @include transformBefore(5deg);
-        //}
-        //&:nth-child(3),
-        //&:nth-child(6),
-        //&:nth-child(8) {
-        //  @include transformBefore(10deg);
-        //}
-
         &.fadein {
           opacity: 0;
           transition : all 1s ease-in-out;
@@ -37,26 +22,6 @@
         /* ----- scroll effect ----- */
         &.fadein.scrollin {
           opacity: 1;
-
-          //&:nth-child(1),
-          //&:nth-child(5),
-          //&:nth-child(7){
-          //  @include transformAfter(-7deg);
-          //}
-          //
-          //&:nth-child(2),
-          //&:nth-child(4) {
-          //  @include transformAfter(5deg);
-          //}
-          //&:nth-child(3),
-          //&:nth-child(6),
-          //&:nth-child(8) {
-          //  @include transformAfter(10deg);
-          //}
-          //
-          //&:hover {
-          //  @include transformHover(0deg);
-          //}
         }
       }
 
