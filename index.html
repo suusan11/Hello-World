@@ -7,16 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/logo.svg" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="src/rellax.min.js"></script>
     <title>kulkuri</title>
 </head>
 <body>
 
-    <section class="hero">
-        <img id="js-breakPoint" src="images/hero-img2.jpeg" alt="hero">
+    <section class="hero rellax" data-rellax-speed="-2">
         <h1>kulkuri</h1>
     </section>
 
-    <section id="travel" class="countries">
+    <section id="travel" class="countries rellax" data-rellax-speed="5">
         <h2><span>\</span>&ensp;Hello World&ensp;/</h2>
         <div class="countries__grid">
             <div class="countries__grid--bg1"></div>
@@ -138,6 +138,7 @@
             });
         });
     </script>
+
     <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

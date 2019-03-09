@@ -3,7 +3,7 @@
 .about {
   width: 100%;
   height: auto;
-  margin-top: 50px;
+  margin-top: -300px;
   text-align: center;
 
   h2 {
@@ -42,13 +42,13 @@
 
 
 @include mobileSize {
-  .about__container {
-    img {
-      width: 250px;
-      height: 250px
+    .about__container {
+      img {
+        width: 250px;
+        height: 250px
+      }
+      p {
+        width: 80%;
+      }
     }
-    p {
-      width: 80%;
-    }
-  }
 }
