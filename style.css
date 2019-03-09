@@ -312,13 +312,14 @@ html {
 
 @media (max-width: 639px) {
   .hero {
-    margin-top: 20%;
+    margin-top: 0;
+    height: 100vh;
   }
   .hero img {
-    height: 500px;
+    height: 90%;
   }
   .hero h1 {
-    line-height: 500px;
+    line-height: 600px;
   }
 }
 
