@@ -1,0 +1,41 @@
+@import "mixin";
+
+.nav__mb {
+  display: none;
+}
+
+@include mobileSize {
+  .nav__mb {
+    display: block;
+    width: 100%;
+    padding: 5%;
+    margin: 10% auto 0;
+
+    &--lists {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    &--list {
+      position: relative;
+
+      a {
+        color: $black;
+      }
+      &:nth-child(1)::before {
+        @include navIcon(url("../images/icon/home.svg"), 12%);
+      }
+      &:nth-child(2)::before {
+        @include navIcon(url("../images/icon/attraction.svg"), 35%);
+      }
+      &:nth-child(3)::before {
+        @include navIcon(url("../images/icon/food.svg"), 10%);
+      }
+      &:nth-child(4)::before {
+        @include navIcon(url("../images/icon/scenery.svg"), 25%);
+      }
+    }
+  }
+}

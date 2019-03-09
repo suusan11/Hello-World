@@ -1,29 +1,6 @@
 @import "variable";
 
-@mixin transformBefore ($value) {
-  -webkit-transform: rotate($value) translate(0, 50px);
-  -moz-transform: rotate($value) translate(0, 50px);
-  -ms-transform: rotate($value) translate(0, 50px);
-  -o-transform: rotate($value) translate(0, 50px);
-  transform: rotate($value) translate(0, 50px);
-}
-
-@mixin transformAfter ($value) {
-  -webkit-transform: rotate($value) translate(0, 0);
-  -moz-transform: rotate($value) translate(0, 0);
-  -ms-transform: rotate($value) translate(0, 0);
-  -o-transform: rotate($value) translate(0, 0);
-  transform: rotate($value) translate(0, 0);
-}
-
-@mixin transformHover ($value) {
-  -webkit-transform: rotate($value);
-  -moz-transform: rotate($value);
-  -ms-transform: rotate($value);
-  -o-transform: rotate($value);
-  transform: rotate($value);
-}
-
+//photo frame for country home img
 @mixin imgBox($color) {
   content: '';
   position: absolute;
@@ -57,6 +34,7 @@
   background-color: transparent;
 }
 
+//photo overlay for country home img
 @mixin imgShadow ($color) {
   position: absolute;
   top: 0;
@@ -87,6 +65,7 @@
   z-index: 2;
 }
 
+//line for home country title
 @mixin guideLine ($color) {
   content: "";
   display: block;
@@ -122,6 +101,14 @@
   opacity: 0.6;
   z-index: -5;
   transform: skewY($deg);
+}
+
+//nav icon for country mobile pages
+@mixin navIcon($url, $left) {
+  content: $url;
+  position: absolute;
+  top: -30px;
+  left: $left;
 }
 
 //responsive

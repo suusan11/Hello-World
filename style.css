@@ -743,6 +743,7 @@ html {
   .home__flex {
     display: block;
     margin-top: 20%;
+    min-height: 0;
   }
   .home__flex--left {
     width: 100%;
@@ -1873,4 +1874,59 @@ html {
 
 .header__country .header__country--nav-links li a:hover::after {
   width: 100%;
+}
+
+@media (max-width: 639px) {
+  .header__country {
+    display: none;
+  }
+}
+
+.nav__mb {
+  display: none;
+}
+
+@media (max-width: 639px) {
+  .nav__mb {
+    display: block;
+    width: 100%;
+    padding: 5%;
+    margin: 10% auto 0;
+  }
+  .nav__mb--lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .nav__mb--list {
+    position: relative;
+  }
+  .nav__mb--list a {
+    color: #333333;
+  }
+  .nav__mb--list:nth-child(1)::before {
+    content: url("../images/icon/home.svg");
+    position: absolute;
+    top: -30px;
+    left: 12%;
+  }
+  .nav__mb--list:nth-child(2)::before {
+    content: url("../images/icon/attraction.svg");
+    position: absolute;
+    top: -30px;
+    left: 35%;
+  }
+  .nav__mb--list:nth-child(3)::before {
+    content: url("../images/icon/food.svg");
+    position: absolute;
+    top: -30px;
+    left: 10%;
+  }
+  .nav__mb--list:nth-child(4)::before {
+    content: url("../images/icon/scenery.svg");
+    position: absolute;
+    top: -30px;
+    left: 25%;
+  }
 }
