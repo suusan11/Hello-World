@@ -265,12 +265,13 @@ html {
 .hero {
   position: relative;
   text-align: center;
+  height: 100vh;
 }
 
 .hero img {
   display: inline-block;
   width: 100%;
-  height: 700px;
+  height: 100%;
   object-fit: cover;
   animation: opacity 1s ease-in;
 }
@@ -306,8 +307,43 @@ html {
   left: 0;
   bottom: 0;
   margin: auto;
-  line-height: 700px;
+  line-height: 798px;
   color: #ffffff;
+}
+
+.hero::before {
+  content: url("../images/icon/scroll-arrow.png");
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  padding: 2% 0;
+  -webkit-animation: bounce 2s infinite;
+  -o-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 @media (max-width: 639px) {
