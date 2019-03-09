@@ -602,8 +602,9 @@ html {
 }
 
 .about__container p {
-  width: 50%;
+  width: 80%;
   font-size: 1.25rem;
+  font-weight: lighter;
   line-height: 40px;
   margin: 2% auto;
 }
@@ -619,7 +620,7 @@ html {
     height: 250px;
   }
   .about__container p {
-    width: 80%;
+    width: 100%;
   }
 }
 

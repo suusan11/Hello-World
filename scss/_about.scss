@@ -26,8 +26,9 @@
     }
 
     p {
-      width: 50%;
+      width: 80%;
       font-size: $font-size-p;
+      font-weight: $font-weight-light;
       line-height: 40px;
       margin: 2% auto;
     }
@@ -48,7 +49,7 @@
         height: 250px
       }
       p {
-        width: 80%;
+        width: 100%;
       }
     }
 }
