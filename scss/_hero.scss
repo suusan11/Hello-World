@@ -5,7 +5,7 @@
   text-align: center;
   width: 100%;
   height: 100vh;
-  background-image: url("../images/hero-img2.jpeg");
+  background-image: url("https://suusan11.github.io/kulkuri/images/hero-img2.jpeg");
   background-size: cover;
   animation: opacity 1s ease-in;
 
@@ -33,7 +33,7 @@
   }
 
   &::before {
-    content: url("../images/icon/scroll-arrow.png");
+    content: url("https://suusan11.github.io/kulkuri/images/icon/scroll-arrow.png");
     position: absolute;
     bottom: 0;
     left: 48%;
