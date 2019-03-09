@@ -1,4 +1,4 @@
-@import "variable";
+@import "variable", "mixin";
 
 .header__country {
   display: flex;
@@ -45,5 +45,12 @@
         }
       }
     }
+  }
+}
+
+@include mobileSize {
+  //this header is for only pc and tablet
+  .header__country {
+    display: none;
   }
 }
