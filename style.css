@@ -742,7 +742,7 @@ html {
 @media (max-width: 639px) {
   .home__flex {
     display: block;
-    margin-top: 20%;
+    margin-top: 10%;
     min-height: 0;
   }
   .home__flex--left {
