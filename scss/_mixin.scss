@@ -135,6 +135,11 @@
   left: $left;
 }
 
+//reset mixin
+@mixin reset() {
+  display: none;
+}
+
 //responsive
 @mixin pcSize {
   @media (min-width: (1000px)) {

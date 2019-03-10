@@ -962,6 +962,15 @@ html {
   border-bottom: 2px solid #46509F;
 }
 
+@media (max-width: 639px) {
+  .gallery--australia h2::before {
+    display: none;
+  }
+  .gallery--australia h2::after {
+    display: none;
+  }
+}
+
 .box__color--canada::before {
   content: '';
   position: absolute;
@@ -1059,6 +1068,15 @@ html {
   right: -30px;
   width: 67px;
   border-bottom: 2px solid #B0272C;
+}
+
+@media (max-width: 639px) {
+  .gallery--canada h2::before {
+    display: none;
+  }
+  .gallery--canada h2::after {
+    display: none;
+  }
 }
 
 .box__color--finland::before {
@@ -1160,6 +1178,15 @@ html {
   border-bottom: 2px solid #3B91A6;
 }
 
+@media (max-width: 639px) {
+  .gallery--finland h2::before {
+    display: none;
+  }
+  .gallery--finland h2::after {
+    display: none;
+  }
+}
+
 .box__color--german::before {
   content: '';
   position: absolute;
@@ -1257,6 +1284,15 @@ html {
   right: -30px;
   width: 67px;
   border-bottom: 2px solid #E59948;
+}
+
+@media (max-width: 639px) {
+  .gallery--german h2::before {
+    display: none;
+  }
+  .gallery--german h2::after {
+    display: none;
+  }
 }
 
 .box__color--malaysia::before {
@@ -1358,6 +1394,15 @@ html {
   border-bottom: 2px solid #938BFF;
 }
 
+@media (max-width: 639px) {
+  .gallery--malaysia h2::before {
+    display: none;
+  }
+  .gallery--malaysia h2::after {
+    display: none;
+  }
+}
+
 .box__color--taiwan::before {
   content: '';
   position: absolute;
@@ -1455,6 +1500,15 @@ html {
   right: -30px;
   width: 67px;
   border-bottom: 2px solid #B77388;
+}
+
+@media (max-width: 639px) {
+  .gallery--taiwan h2::before {
+    display: none;
+  }
+  .gallery--taiwan h2::after {
+    display: none;
+  }
 }
 
 .box__color--thailand::before {
@@ -1556,6 +1610,15 @@ html {
   border-bottom: 2px solid #FECC35;
 }
 
+@media (max-width: 639px) {
+  .gallery--thailand h2::before {
+    display: none;
+  }
+  .gallery--thailand h2::after {
+    display: none;
+  }
+}
+
 .box__color--usa::before {
   content: '';
   position: absolute;
@@ -1653,6 +1716,15 @@ html {
   right: -30px;
   width: 67px;
   border-bottom: 2px solid #9FA9A2;
+}
+
+@media (max-width: 639px) {
+  .gallery--usa h2::before {
+    display: none;
+  }
+  .gallery--usa h2::after {
+    display: none;
+  }
 }
 
 .gallery {
@@ -1960,6 +2032,7 @@ html {
   .header__country--mb {
     display: block;
     padding: 20px 5% 0;
+    margin-bottom: 10%;
   }
   .header__country--mb p {
     font-weight: lighter;

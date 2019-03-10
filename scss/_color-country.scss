@@ -47,6 +47,16 @@
   }
 }
 
+@include mobileSize {
+  .gallery--australia h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
+  }
+}
 
 //Canada
 .box__color--canada::before {
@@ -93,6 +103,17 @@
   }
   &::after {
     @include guideLineBottom($canada);
+  }
+}
+
+@include mobileSize {
+  .gallery--canada h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
   }
 }
 
@@ -144,6 +165,17 @@
   }
 }
 
+@include mobileSize {
+  .gallery--finland h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
+  }
+}
+
 //German
 .box__color--german::before {
   @include imgBox($german);
@@ -189,6 +221,17 @@
   }
   &::after {
     @include guideLineBottom($german);
+  }
+}
+
+@include mobileSize {
+  .gallery--german h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
   }
 }
 
@@ -240,6 +283,17 @@
   }
 }
 
+@include mobileSize {
+  .gallery--malaysia h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
+  }
+}
+
 //Taiwan
 .box__color--taiwan::before {
   @include imgBox($taiwan);
@@ -288,6 +342,16 @@
   }
 }
 
+@include mobileSize {
+  .gallery--taiwan h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
+  }
+}
 //Thailand
 .box__color--thailand::before {
   @include imgBox($thailand);
@@ -336,6 +400,17 @@
   }
 }
 
+@include mobileSize {
+  .gallery--thailand h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
+  }
+}
+
 //USA
 .box__color--usa::before {
   @include imgBox($usa);
@@ -381,5 +456,16 @@
   }
   &::after {
     @include guideLineBottom($usa);
+  }
+}
+
+@include mobileSize {
+  .gallery--usa h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
   }
 }
