@@ -29,18 +29,9 @@
           position: relative;
           color: $black;
 
-          &::after {
-            position: absolute;
-            display: block;
-            content: "";
-            width: 0;
-            height: 1px;
-            bottom: -5px;
-            background-color: $black;
-            transition: .5s ease-out;
-          }
-          &:hover::after {
-            width: 100%;
+          &:hover {
+            font-weight: $font-weight-bold;
+            opacity: 0.8;
           }
         }
       }

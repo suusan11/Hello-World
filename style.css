@@ -2006,19 +2006,9 @@ html {
   color: #333333;
 }
 
-.header__country .header__country--nav-links li a::after {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 0;
-  height: 1px;
-  bottom: -5px;
-  background-color: #333333;
-  transition: .5s ease-out;
-}
-
-.header__country .header__country--nav-links li a:hover::after {
-  width: 100%;
+.header__country .header__country--nav-links li a:hover {
+  font-weight: bold;
+  opacity: 0.8;
 }
 
 .header__country--mb {
