@@ -25,10 +25,9 @@
     position: absolute;
     top: 0;
     right: 0;
-    left: 0;
+    left: 3%;
     bottom: 0;
-    margin: auto;
-    line-height: 798px;
+    margin: 0 auto;
     color: $white;
   }
 
@@ -36,7 +35,7 @@
     content: url("https://suusan11.github.io/kulkuri/images/icon/scroll-arrow.png");
     position: absolute;
     bottom: 0;
-    right: 48%;
+    left: 44%;
     padding: 2% 0;
     -webkit-animation: bounce 2s infinite;
     -o-animation: bounce 2s infinite;
