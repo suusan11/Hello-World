@@ -1,4 +1,4 @@
-# kulkuri
+# kulkuri ✈
 Start to develop in October 2018
 
 Travel Gallery site using **HTML**, **CSS/SCSS**, and **JavaScript**.
@@ -10,7 +10,7 @@ This is a gallery site of my trip.
 I have introduced eight countries that have three contents about "attraction", "food" and "scenery". To show the photos with effect, using CSS Grid and assign theme color for each country.
 
 <img width="1440" alt="Screen Shot 2019-05-03 at 2 14 35 PM" src="https://user-images.githubusercontent.com/38636923/57166059-d0b7ff80-6dad-11e9-912f-0e0785c18c09.png">
-　　
+　 
 <img width="1440" alt="Screen Shot 2019-05-03 at 2 10 45 PM" src="https://user-images.githubusercontent.com/38636923/57165902-50919a00-6dad-11e9-928b-45a35442bf28.png">
 
 ## Tools
