@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <script src="src/rellax.min.js"></script>
     <title>kulkuri</title>
 </head>
+
 <body>
 
     <section class="hero rellax" data-rellax-speed="-2">
@@ -121,17 +123,17 @@
     </section>
 
     <footer class="footer__main">
-        <p>&copy; 2019 kulkuri</p>
+        <p>&copy; 2020 kulkuri</p>
     </footer>
 
     <script type="text/javascript">
-        $(function(){
-            $(window).scroll(function (){
-                $('.fadein').each(function(){
+        $(function () {
+            $(window).scroll(function () {
+                $('.fadein').each(function () {
                     var elemPos = $(this).offset().top;
                     var scroll = $(window).scrollTop();
                     var windowHeight = $(window).height();
-                    if (scroll > elemPos - windowHeight + 200){
+                    if (scroll > elemPos - windowHeight + 200) {
                         $(this).addClass('scrollin');
                     }
                 });
@@ -141,4 +143,5 @@
 
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
