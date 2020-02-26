@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,10 +20,17 @@
   },
   "homepage": "https://github.com/suusan11/kulkuri#readme",
   "devDependencies": {
-    "browser-sync": "^2.24.7",
-    "gulp": "^3.9.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-plumber": "^1.2.0",
-    "gulp-sass": "^4.0.1"
+    "gulp-sass": "^4.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0"
+  }
 }
