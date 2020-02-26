@@ -1,5 +1,6 @@
 @import "variable", "mixin", "typography";
 
+//Australia
 .box__color--australia::before {
   @include imgBox($australia);
 }
@@ -461,6 +462,65 @@
 
 @include mobileSize {
   .gallery--usa h2 {
+    &::before {
+      @include reset;
+    }
+    &::after {
+      @include reset;
+    }
+  }
+}
+
+//Hawaii
+.box__color--hawaii::before {
+  @include imgBox($hawaii);
+}
+
+@include mobileSize {
+  .box__color--hawaii::before {
+    @include imgBoxMB($hawaii);
+  }
+}
+
+@include middleSize {
+  .box__color--hawaii::before {
+    @include imgBoxMD($hawaii);
+  }
+}
+
+.img__shadow--hawaii {
+  @include imgShadow($hawaii-opacity);
+}
+
+@include mobileSize {
+  .img__shadow--hawaii {
+    @include imgShadowMB($hawaii-opacity);
+  }
+}
+
+@include middleSize {
+  .img__shadow--hawaii {
+    @include imgShadowMD($hawaii-opacity);
+  }
+}
+
+.line__color--hawaii {
+  h2::after {
+    @include guideLine($hawaii);
+  }
+}
+
+.gallery--hawaii h2 {
+  &::before {
+    @include guideLineTop($hawaii);
+  }
+  &::after {
+    @include guideLineBottom($hawaii);
+  }
+}
+
+@include mobileSize {
+  .gallery--hawaii h2 {
     &::before {
       @include reset;
     }
